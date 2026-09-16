@@ -1,1 +1,5 @@
 .DS_Store
+
+# Source photography. The site serves the cropped/compressed derivatives
+# in assets/ (card-*.jpg, hero-*.jpg), not these full-size originals.
+assets/Mr Plumber Pictures/
