@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   Mr. Plumber, Inc. — shared script for every page.
+   Mr. Plumber, Inc. shared script for every page.
 
    ▸ SET THIS BEFORE LAUNCH ◂
    FORM_ENDPOINT must point at a real form handler (Formspree,
@@ -96,106 +96,151 @@ const FORM_ENDPOINT = '';
     }
   }
 
-  /* ── quote form (only on pages that have it) ──────────────── */
-  const form = $('quoteForm');
-  if (!form) return;
-
-  const sent = $('sent');
-  const submitBtn = $('submitBtn');
-  const againBtn = $('againBtn');
-
-  const rules = {
-    'f-name': (v) => (v.trim().length >= 2 ? '' : 'Please enter your name.'),
-    'f-phone': (v) =>
-      v.replace(/\D/g, '').length >= 10 ? '' : 'Enter a 10-digit phone number so we can reach you.',
-    'f-email': (v) =>
-      !v.trim() || /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) ? '' : 'That email address looks incomplete.',
-    'f-service': (v) => (v ? '' : 'Pick the service you need.'),
-  };
-
-  const check = (id) => {
-    const input = $(id);
-    if (!input) return true;
-    const field = input.closest('.field');
-    const msg = rules[id](input.value);
-    field.classList.toggle('is-bad', Boolean(msg));
-    const slot = field.querySelector('[data-err-for="' + id + '"]');
-    if (slot) slot.textContent = msg;
-    input.setAttribute('aria-invalid', msg ? 'true' : 'false');
-    return !msg;
-  };
-
-  Object.keys(rules).forEach((id) => {
-    const input = $(id);
-    if (!input) return;
-    input.addEventListener('blur', () => check(id));
-    input.addEventListener('input', () => {
-      if (input.closest('.field').classList.contains('is-bad')) check(id);
+  /* ── who-we-serve: each industry opens to explain itself ──── */
+  document.querySelectorAll('.ind__more').forEach((btn) => {
+    const panel = document.getElementById(btn.getAttribute('aria-controls'));
+    if (!panel) return;
+    const label = btn.querySelector('span');
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      panel.hidden = open;
+      if (label) label.textContent = open ? 'More' : 'Less';
     });
-    input.addEventListener('change', () => check(id));
   });
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
+  /* ── forms ─────────────────────────────────────────────────────
+     Both the residential quote form and the commercial account form
+     run through here. Neither delivers anywhere until FORM_ENDPOINT
+     above is pointed at a real handler. */
+  const required = (label) => (v) => (v.trim().length >= 2 ? '' : label);
+  const phoneRule = (v) =>
+    v.replace(/\D/g, '').length >= 10 ? '' : 'Enter a 10-digit phone number so we can reach you.';
+  const emailRule = (optional) => (v) =>
+    (optional && !v.trim()) || /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim())
+      ? ''
+      : 'That email address looks incomplete.';
+  const chosen = (label) => (v) => (v ? '' : label);
 
-    const results = Object.keys(rules).map(check);
-    if (results.includes(false)) {
-      const bad = form.querySelector('.field.is-bad input, .field.is-bad select');
-      if (bad) {
-        bad.focus();
-        bad.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+  const FORMS = [
+    {
+      form: 'quoteForm', sent: 'sent', submit: 'submitBtn', again: 'againBtn',
+      idle: 'Send My Request', busy: 'Sending…', first: 'f-name',
+      rules: {
+        'f-name': required('Please enter your name.'),
+        'f-phone': phoneRule,
+        'f-email': emailRule(true),
+        'f-service': chosen('Pick the service you need.'),
+      },
+    },
+    {
+      form: 'acctForm', sent: 'acctSent', submit: 'acctSubmit', again: 'acctAgain',
+      idle: 'Open My Account', busy: 'Sending…', first: 'a-company',
+      rules: {
+        'a-company': required('Please enter your company name.'),
+        'a-name': required('Please enter a contact name.'),
+        'a-phone': phoneRule,
+        'a-email': emailRule(false),
+        'a-type': chosen('Tell us what kind of business this is.'),
+        'a-props': chosen('Pick how many properties this covers.'),
+        'a-billing': chosen('Pick how you would like to be billed.'),
+      },
+    },
+  ];
+
+  FORMS.forEach((cfg) => {
+    const form = $(cfg.form);
+    if (!form) return;
+
+    const sent = $(cfg.sent);
+    const submitBtn = $(cfg.submit);
+    const againBtn = $(cfg.again);
+
+    const check = (id) => {
+      const input = $(id);
+      if (!input) return true;
+      const field = input.closest('.field');
+      const msg = cfg.rules[id](input.value);
+      field.classList.toggle('is-bad', Boolean(msg));
+      const slot = field.querySelector('[data-err-for="' + id + '"]');
+      if (slot) slot.textContent = msg;
+      input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+      return !msg;
+    };
+
+    Object.keys(cfg.rules).forEach((id) => {
+      const input = $(id);
+      if (!input) return;
+      input.addEventListener('blur', () => check(id));
+      input.addEventListener('input', () => {
+        if (input.closest('.field').classList.contains('is-bad')) check(id);
+      });
+      input.addEventListener('change', () => check(id));
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      if (Object.keys(cfg.rules).map(check).includes(false)) {
+        const bad = form.querySelector('.field.is-bad input, .field.is-bad select');
+        if (bad) {
+          bad.focus();
+          bad.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+        }
+        return;
       }
-      return;
-    }
 
-    submitBtn.classList.add('is-busy');
-    submitBtn.textContent = 'Sending…';
+      submitBtn.classList.add('is-busy');
+      submitBtn.textContent = cfg.busy;
 
-    const data = new FormData(form);
+      const data = new FormData(form);
+      data.append('_form', cfg.form === 'acctForm' ? 'Commercial account' : 'Residential quote');
 
-    try {
-      if (FORM_ENDPOINT) {
-        const res = await fetch(FORM_ENDPOINT, {
-          method: 'POST',
-          body: data,
-          headers: { Accept: 'application/json' },
-        });
-        if (!res.ok) throw new Error('Request failed: ' + res.status);
-      } else {
-        console.warn('[Mr. Plumber] FORM_ENDPOINT is not set. This request was not delivered.', Object.fromEntries(data));
+      try {
+        if (FORM_ENDPOINT) {
+          const res = await fetch(FORM_ENDPOINT, {
+            method: 'POST',
+            body: data,
+            headers: { Accept: 'application/json' },
+          });
+          if (!res.ok) throw new Error('Request failed: ' + res.status);
+        } else {
+          console.warn('[Mr. Plumber] FORM_ENDPOINT is not set. This request was not delivered.', Object.fromEntries(data));
+        }
+
+        form.hidden = true;
+        sent.hidden = false;
+        sent.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+      } catch (err) {
+        console.error(err);
+        submitBtn.classList.remove('is-busy');
+        submitBtn.textContent = cfg.idle;
+
+        let alertBox = form.querySelector('.form__error');
+        if (!alertBox) {
+          alertBox = document.createElement('p');
+          alertBox.className = 'form__foot form__error';
+          alertBox.setAttribute('role', 'alert');
+          submitBtn.after(alertBox);
+        }
+        alertBox.innerHTML =
+          'That request didn\u2019t go through. Call <a href="tel:18036004357">803-600-4357</a> and we\u2019ll take the details over the phone.';
       }
+    });
 
-      form.hidden = true;
-      sent.hidden = false;
-      sent.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
-    } catch (err) {
-      console.error(err);
-      submitBtn.classList.remove('is-busy');
-      submitBtn.textContent = 'Send my request';
-
-      let alertBox = form.querySelector('.form__error');
-      if (!alertBox) {
-        alertBox = document.createElement('p');
-        alertBox.className = 'form__foot form__error';
-        alertBox.setAttribute('role', 'alert');
-        submitBtn.after(alertBox);
-      }
-      alertBox.innerHTML =
-        'That request didn’t go through. Call <a href="tel:18036004357">803-600-4357</a> and we’ll take the details over the phone.';
+    if (againBtn) {
+      againBtn.addEventListener('click', () => {
+        form.reset();
+        form.querySelectorAll('.field.is-bad').forEach((f) => f.classList.remove('is-bad'));
+        const errored = form.querySelector('.form__error');
+        if (errored) errored.remove();
+        submitBtn.classList.remove('is-busy');
+        submitBtn.textContent = cfg.idle;
+        sent.hidden = true;
+        form.hidden = false;
+        const first = $(cfg.first);
+        if (first) first.focus();
+      });
     }
   });
-
-  if (againBtn) {
-    againBtn.addEventListener('click', () => {
-      form.reset();
-      form.querySelectorAll('.field.is-bad').forEach((f) => f.classList.remove('is-bad'));
-      const errored = form.querySelector('.form__error');
-      if (errored) errored.remove();
-      submitBtn.classList.remove('is-busy');
-      submitBtn.textContent = 'Send my request';
-      sent.hidden = true;
-      form.hidden = false;
-      $('f-name').focus();
-    });
-  }
 })();

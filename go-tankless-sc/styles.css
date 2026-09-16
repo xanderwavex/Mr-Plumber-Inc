@@ -1,17 +1,17 @@
 /* ═══════════════════════════════════════════════════════════════
-   Go Tankless SC — a Mr. Plumber, Inc. mini-site
+   Go Tankless SC: a Mr. Plumber, Inc. mini-site
    Subdomain-ready (point gotanklesssc.com here later).
    Shares the Mr. Plumber design language: navy anchors, brick acts,
-   copper connects — with its own "Go Tankless SC" wordmark.
+   copper connects, with its own "Go Tankless SC" wordmark.
    ═══════════════════════════════════════════════════════════════ */
 
 :root{
   --paper:#FFFFFF;
   --mist:#F3F6FA;
-  --line:rgba(22,38,63,.10);
-  --line-strong:rgba(22,38,63,.16);
-  --navy:#16263F;
-  --navy-2:#1E3252;
+  --line:rgba(31,45,58,.10);
+  --line-strong:rgba(31,45,58,.16);
+  --navy:#1F2D3A;
+  --navy-2:#2A3C4C;
   --brick:#C1503F;
   --brick-deep:#A8422F;
   --copper:#B4713C;
@@ -22,11 +22,11 @@
   --ink-mid:#5E6874;
   --ink-soft:#8791A0;
   --display:'Manrope',system-ui,sans-serif;
-  --body:'Inter',system-ui,-apple-system,sans-serif;
+  --body:'Montserrat',system-ui,-apple-system,sans-serif;
   --r-card:20px;
   --r-panel:28px;
-  --shadow-m:0 14px 40px -18px rgba(22,38,63,.22);
-  --shadow-l:0 40px 90px -40px rgba(22,38,63,.42);
+  --shadow-m:0 14px 40px -18px rgba(31,45,58,.22);
+  --shadow-l:0 40px 90px -40px rgba(31,45,58,.42);
   --nav-h:70px;
   --wrap:1080px;
 }
@@ -107,7 +107,7 @@ li{list-style:none}
 
 /* ── hero ─────────────────────────────────────────────────────── */
 .hero{
-  background:linear-gradient(160deg,var(--navy) 0%,#132741 60%,#0F1E33 100%);
+  background:linear-gradient(160deg,var(--navy) 0%,#243542 60%,#1A2732 100%);
   color:#fff;padding:76px 0 88px;position:relative;overflow:hidden;isolation:isolate;
 }
 .hero::after{content:'';position:absolute;inset:-30% -10% auto auto;width:44%;aspect-ratio:1;z-index:-1;
@@ -133,23 +133,110 @@ li{list-style:none}
   background:rgba(180,113,60,.16);border:1.5px solid var(--copper)}
 .tile p{font-size:.92rem;color:var(--ink-mid);line-height:1.6}
 .sec--mist .tile{background:#fff}
+.tile{transition:transform .34s cubic-bezier(.2,.75,.25,1),box-shadow .34s cubic-bezier(.2,.75,.25,1),border-color .3s}
+.tile:hover{transform:translateY(-8px);box-shadow:0 34px 70px -28px rgba(31,45,58,.4);border-color:rgba(180,113,60,.35)}
 
-/* ── comparison table ─────────────────────────────────────────── */
-.compare-wrap{overflow-x:auto;border-radius:var(--r-card);border:1px solid var(--line);box-shadow:var(--shadow-m)}
-table.compare{width:100%;border-collapse:collapse;min-width:560px;background:#fff}
-table.compare caption{text-align:left;padding:16px 20px;font-family:var(--display);font-weight:700;
-  color:var(--ink-soft);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
-table.compare th,table.compare td{padding:15px 20px;text-align:left;border-top:1px solid var(--line);
-  font-size:.94rem;line-height:1.5;vertical-align:top}
-table.compare thead th{
-  background:var(--navy);color:#fff;font-family:var(--display);font-weight:700;border-top:0;
-  font-size:.9rem;letter-spacing:-.01em;
+/* ── tank vs tankless: a head-to-head diagram ─────────────────
+   Two columns either side of a copper spine. Each row states the
+   same attribute for both, flagged pro or con, so the trade-off is
+   readable at a glance instead of buried in a table. */
+.vs{position:relative;--vs-axis:190px;--vs-gap:16px}
+.vs::before{
+  content:'';position:absolute;left:50%;top:78px;bottom:14px;width:2px;
+  transform:translateX(-1px);border-radius:2px;
+  background:linear-gradient(180deg,var(--copper-lt),rgba(180,113,60,.18));
 }
-table.compare thead th:first-child{background:#0F1E33}
-table.compare tbody th{font-family:var(--display);font-weight:700;color:var(--navy);width:34%}
-table.compare tbody tr:nth-child(even) td,table.compare tbody tr:nth-child(even) th{background:var(--mist)}
-.tag-good{color:#1f7a4d;font-weight:600}
-.tag-bad{color:var(--brick-deep);font-weight:600}
+.vs__heads{
+  display:grid;grid-template-columns:1fr var(--vs-axis) 1fr;
+  gap:var(--vs-gap);align-items:center;margin-bottom:22px;
+}
+.vs__head{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r-card);
+  padding:24px 26px;text-align:center;box-shadow:var(--shadow-m);
+  transition:transform .34s cubic-bezier(.2,.75,.25,1),box-shadow .34s;
+}
+.vs__head:hover{transform:translateY(-6px);box-shadow:0 30px 62px -28px rgba(31,45,58,.4)}
+.vs__head--alt{border-color:rgba(180,113,60,.42);box-shadow:0 22px 50px -26px rgba(180,113,60,.55)}
+.vs__icon{
+  display:grid;place-items:center;width:54px;height:54px;margin:0 auto 14px;border-radius:16px;
+  background:linear-gradient(150deg,rgba(180,113,60,.16),rgba(180,113,60,.05));
+  border:1px solid rgba(180,113,60,.22);
+}
+.vs__icon svg{width:28px;height:28px;fill:none;stroke:var(--copper);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.vs__who{font-family:var(--display);font-weight:800;font-size:1.22rem;color:var(--navy);letter-spacing:-.02em}
+.vs__what{margin-top:7px;font-size:.87rem;color:var(--ink-mid);line-height:1.5}
+.vs__tally{
+  margin-top:14px;padding-top:12px;border-top:1px solid var(--line);
+  font-family:var(--display);font-size:.78rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--ink-soft);
+}
+.vs__tally b{color:var(--navy);font-size:1rem;font-weight:800}
+.vs__badge{
+  display:grid;place-items:center;width:60px;height:60px;margin:0 auto;border-radius:50%;
+  background:var(--navy);color:#fff;font-family:var(--display);font-weight:800;
+  font-size:.86rem;letter-spacing:.1em;text-transform:uppercase;
+  box-shadow:0 14px 30px -14px rgba(31,45,58,.8);
+}
+
+.vs__rows{display:grid;gap:12px}
+.vs__row{
+  display:grid;grid-template-columns:1fr var(--vs-axis) 1fr;
+  gap:var(--vs-gap);align-items:stretch;
+}
+.vs__axis{
+  display:grid;place-items:center;text-align:center;padding:12px 10px;
+  font-family:var(--display);font-weight:700;font-size:.82rem;letter-spacing:.04em;
+  color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;
+  align-self:center;position:relative;z-index:1;line-height:1.25;
+}
+.vs__cell{
+  display:flex;flex-direction:column;gap:9px;padding:18px 20px;border-radius:var(--r-card);
+  border:1px solid var(--line);background:#fff;
+  transition:transform .34s cubic-bezier(.2,.75,.25,1),box-shadow .34s,border-color .3s;
+}
+.vs__cell:hover{transform:translateY(-5px);box-shadow:0 26px 54px -26px rgba(31,45,58,.36)}
+.vs__cell p{font-size:.9rem;line-height:1.55;color:var(--ink-mid)}
+.vs__flag{
+  display:inline-flex;align-items:center;gap:6px;align-self:flex-start;
+  font-family:var(--display);font-weight:700;font-size:.68rem;letter-spacing:.14em;
+  text-transform:uppercase;padding:5px 11px 5px 8px;border-radius:999px;
+}
+.vs__flag svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.vs__cell--pro{border-color:rgba(31,122,77,.28);background:rgba(31,122,77,.045)}
+.vs__cell--pro .vs__flag{color:#1B6B43;background:rgba(31,122,77,.13)}
+.vs__cell--con{border-color:rgba(168,66,47,.24);background:rgba(168,66,47,.04)}
+.vs__cell--con .vs__flag{color:var(--brick-deep);background:rgba(168,66,47,.12)}
+
+.vs__verdict{
+  margin-top:28px;padding:22px 26px;border-radius:var(--r-card);
+  background:#fff;border:1px solid var(--line);border-left:3px solid var(--copper);
+  font-size:.95rem;line-height:1.66;color:var(--ink-mid);
+}
+.vs__verdict strong{color:var(--navy)}
+
+@media (max-width:860px){
+  .vs{--vs-axis:150px;--vs-gap:12px}
+  .vs__what{display:none}
+}
+@media (max-width:700px){
+  /* the spine collapses: each attribute becomes its own stacked pair, so
+     each half has to name which unit it is talking about */
+  .vs::before{display:none}
+  .vs__cell::before{
+    content:attr(data-for);
+    font-family:var(--display);font-weight:700;font-size:.7rem;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-soft);
+  }
+  .vs__cell{gap:6px}
+  .vs__heads{grid-template-columns:1fr 1fr;gap:12px}
+  .vs__badge{display:none}
+  .vs__what{display:block}
+  .vs__row{grid-template-columns:1fr;gap:8px}
+  .vs__axis{
+    order:-1;border-radius:12px;background:var(--navy);color:#fff;border-color:var(--navy);
+    padding:11px 14px;justify-self:stretch;
+  }
+}
 
 /* ── final CTA ────────────────────────────────────────────────── */
 .cta-band{
@@ -163,10 +250,10 @@ table.compare tbody tr:nth-child(even) td,table.compare tbody tr:nth-child(even)
 .cta-band .btn--outline{color:#fff;border-color:rgba(255,255,255,.5)}
 .cta-band .btn--outline:hover{background:rgba(255,255,255,.12);border-color:#fff;color:#fff}
 .cta-band .btn--light{background:#fff;color:var(--brick-deep)}
-.cta-band .btn--light:hover{transform:translateY(-2px);box-shadow:0 18px 40px -14px rgba(11,20,34,.5)}
+.cta-band .btn--light:hover{transform:translateY(-2px);box-shadow:0 18px 40px -14px rgba(16,24,32,.5)}
 
 /* ── footer ───────────────────────────────────────────────────── */
-.foot{background:#0E1B2D;color:rgba(255,255,255,.62);padding:52px 0 32px}
+.foot{background:#16212B;color:rgba(255,255,255,.62);padding:52px 0 32px}
 .foot__top{display:flex;flex-wrap:wrap;gap:22px;justify-content:space-between;align-items:center;
   padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,.1)}
 .foot__back{font-family:var(--display);font-weight:600;font-size:.9rem;color:#fff;text-decoration:none}
@@ -179,6 +266,15 @@ table.compare tbody tr:nth-child(even) td,table.compare tbody tr:nth-child(even)
 @media (max-width:640px){
   body{font-size:16px}
   .sec{padding-block:60px}
+  /* the header has three things and a phone's width: keep it on one line */
+  .nav__inner{gap:10px;padding-inline:14px}
+  .nav__right{gap:6px}
+  .wordmark__text{white-space:nowrap;font-size:.95rem}
+  .wordmark{gap:8px}
+  .nav__back{padding:8px 4px;font-size:.78rem;white-space:nowrap}
+  .nav__back span{display:none}
+  .nav__right .btn{padding:11px;gap:0}
+  .nav__right .btn span{display:none}
   .grid{grid-template-columns:1fr;gap:14px}
   .hero__cta{flex-direction:column;align-items:stretch}
   .hero__cta .btn{width:100%}
@@ -186,4 +282,5 @@ table.compare tbody tr:nth-child(even) td,table.compare tbody tr:nth-child(even)
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+  .tile:hover,.vs__head:hover,.vs__cell:hover{transform:none!important}
 }
