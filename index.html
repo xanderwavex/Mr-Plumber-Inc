@@ -38,7 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260915a">
+<link rel="stylesheet" href="styles.css?v=20260923a">
 
 <!-- ═══════════════ STRUCTURED DATA (schema.org) ═══════════════ -->
 <script type="application/ld+json">
@@ -108,6 +108,7 @@
       <span class="brand__mark"><img src="assets/logo.png" alt="Mr. Plumber, Inc." width="1100" height="333"></span>
     </a>
     <nav class="nav__links" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
       <a href="services.html">Residential</a>
       <a href="commercial.html">Commercial</a>
       <a href="tankless.html">Tankless</a>
@@ -132,6 +133,7 @@
 
 <div class="drawer" id="drawer" hidden>
   <nav aria-label="Mobile">
+    <a href="index.html">Home</a>
     <a href="services.html">Residential Services</a>
     <a href="commercial.html">Commercial Services</a>
     <a href="tankless.html">Tankless Water Heaters</a>
@@ -174,22 +176,23 @@
       of Columbia and the Midlands.
     </p>
 
-    <div class="hero__cta reveal" style="--d:.24s">
-      <a class="btn btn--brick btn--lg" href="services.html">Residential Services</a>
-      <a class="btn btn--glass btn--lg" href="tel:18036004357">
+    <div class="hero__cta hero__cta--stack reveal" style="--d:.24s">
+      <a class="btn btn--orange btn--xl" href="tel:18036004357">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
         <span>Emergency? Call 803-600-4357</span>
       </a>
-    </div>
-    <div class="hero__cta hero__cta--sub reveal" style="--d:.3s">
-      <a class="btn btn--glass" href="https://gotanklesssc.com/" target="_blank" rel="noopener">
-        <span>Going Tankless?</span>
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+      <div class="hero__cta-row">
+        <a class="btn btn--glass btn--lg" href="services.html">Residential Services</a>
+        <a class="btn btn--glass btn--lg" href="commercial.html">Commercial Services</a>
+        <a class="btn btn--glass btn--lg btn--arrow" href="https://gotanklesssc.com/" target="_blank" rel="noopener">
+          <span>Going Tankless?</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
     </div>
 
     <ul class="creds reveal" style="--d:.36s">
-      <li>Family owned since 1958</li><li>Licensed</li><li>Bonded</li><li>Insured</li><li>24/7 emergency line</li>
+      <li>Family owned since 1958</li><li>Licensed</li><li>Bonded</li><li>Insured</li>
     </ul>
   </div>
 </section>
@@ -200,7 +203,6 @@
     <header class="sec__head sec__head--center reveal">
       <p class="eyebrow"><span class="eyebrow__rule"></span>What We Do</p>
       <h2 class="h2">Everything Plumbing, Under One Family Name</h2>
-      <p class="lede" style="margin-inline:auto">Pick where you need us. Each area has its own page with the full detail.</p>
     </header>
 
     <div class="svc-stack">
@@ -231,7 +233,7 @@
       <a class="svc-row reveal" style="--d:.16s" href="tankless.html">
         <span class="svc-row__media">
           <span class="svc-row__n">03</span>
-          <img src="assets/card-tankless.jpg" alt="" width="600" height="400" loading="lazy" decoding="async">
+          <img src="assets/Tankless_Card_New.png" alt="" width="1446" height="835" loading="lazy" decoding="async">
         </span>
         <span class="svc-row__body">
           <h3>Tankless Water Heaters</h3>
@@ -244,7 +246,7 @@
 </section>
 
 <!-- ═══════════════ REVIEWS ═══════════════ -->
-<section class="sec sec--reviews">
+<section class="sec sec--reviews sec--midlands">
   <div class="wrap">
     <header class="sec__head sec__head--center reveal">
       <p class="eyebrow"><span class="eyebrow__rule"></span>Reviews</p>
@@ -255,10 +257,12 @@
         Drop a live Google / Facebook review widget in place of the two
         link buttons below once it is set up. Do not hand-write testimonials.
       -->
-      <div class="review__links">
-        <a class="btn btn--brick lift lift--sm" href="story.html">View Our Story &amp; Reviews</a>
-        <a class="btn btn--outline lift lift--sm" href="https://www.google.com/search?q=Mr.+Plumber+Inc+Columbia+SC" target="_blank" rel="noopener">Read Our Google Reviews</a>
-        <a class="btn btn--outline lift lift--sm" href="https://www.facebook.com/" target="_blank" rel="noopener">Read Our Facebook Reviews</a>
+      <div class="review__links review__links--stack">
+        <a class="btn btn--brick lift lift--sm review__main" href="story.html">Our Story</a>
+        <div class="review__sub">
+          <a class="btn btn--outline lift lift--sm" href="https://www.google.com/search?q=Mr.+Plumber+Inc+Columbia+SC" target="_blank" rel="noopener">Read Our Google Reviews</a>
+          <a class="btn btn--outline lift lift--sm" href="https://www.facebook.com/" target="_blank" rel="noopener">Read Our Facebook Reviews</a>
+        </div>
       </div>
     </header>
   </div>
@@ -267,7 +271,7 @@
 <!-- ═══════════════ CONTACT + FORM ═══════════════ -->
 <section class="sec sec--contact" id="contact">
   <div class="wrap">
-    <div class="contact">
+    <div class="contact contact--peek">
 
       <div class="contact__aside reveal">
         <p class="eyebrow eyebrow--light"><span class="eyebrow__rule"></span>Get In Touch</p>
@@ -299,7 +303,8 @@
         (Formspree, Netlify Forms, or your own /api route) before launch.
         Until then, submissions are NOT delivered anywhere.
       -->
-      <div class="formcard reveal" style="--d:.1s">
+      <div class="formcard formcard--peek reveal" style="--d:.1s">
+        <img class="peek" src="assets/mr-plumber-waving.png" alt="" width="560" height="683" loading="lazy" decoding="async" aria-hidden="true">
         <form class="form" id="quoteForm" novalidate>
           <p class="form__title">Request A Quote</p>
           <p class="form__sub">Tell us what you need and we'll get back to you, usually the same business day.</p>
@@ -417,6 +422,6 @@
   <span>Call Now</span>
 </a>
 
-<script src="main.js?v=20260915a"></script>
+<script src="main.js?v=20260923a"></script>
 </body>
 </html>

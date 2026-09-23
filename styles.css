@@ -191,7 +191,7 @@ li{list-style:none}
 .hero__bg{position:absolute;inset:-4%;z-index:-2}
 .hero__bg img{
   width:100%;height:100%;object-fit:cover;object-position:50% 62%;
-  filter:blur(5px) saturate(108%);
+  filter:blur(3.5px) saturate(108%);
   transform:scale(1.06);
   animation:heroDrift 26s ease-in-out infinite alternate;
 }
@@ -368,11 +368,7 @@ li{list-style:none}
 .svc:hover{transform:translateY(-5px);box-shadow:0 26px 56px -24px rgba(31,45,58,.3)}
 .svc h3{
   font-size:1.05rem;font-weight:700;letter-spacing:-.01em;margin-bottom:8px;
-  padding-left:20px;position:relative;
-}
-.svc h3::before{
-  content:'';position:absolute;left:0;top:.44em;width:11px;height:11px;border-radius:50%;
-  background:rgba(180,113,60,.16);border:1.5px solid var(--copper);
+  text-align:center;
 }
 .svc p{font-size:.92rem;color:var(--ink-mid);line-height:1.6}
 .svc p a{color:var(--brick);font-weight:600;text-decoration:none;border-bottom:1.5px solid rgba(193,80,63,.3)}
@@ -716,7 +712,7 @@ li{list-style:none}
   .sec,.sec--tankless,.sec--rail,.sec--contact,.sec--reviews{padding-block:68px}
   .wrap{padding-inline:18px}
   .hero{min-height:auto;padding:calc(var(--nav-h) + 74px) 0 64px}
-  .hero__bg img{filter:blur(4px) saturate(108%)}
+  .hero__bg img{filter:blur(3px) saturate(108%)}
   .hero__cta{flex-direction:column;align-items:stretch}
   .hero__cta .btn{width:100%}
   .creds{gap:8px 18px;margin-top:30px}
@@ -897,8 +893,7 @@ li{list-style:none}
   padding:26px 24px;box-shadow:var(--shadow-m);
 }
 .sec--mist .feature{background:#fff}
-.feature h3{font-size:1.06rem;font-weight:700;margin-bottom:8px;padding-left:20px;position:relative}
-.feature h3::before{content:'';position:absolute;left:0;top:.44em;width:11px;height:11px;border-radius:50%;background:rgba(180,113,60,.16);border:1.5px solid var(--copper)}
+.feature h3{font-size:1.06rem;font-weight:700;margin-bottom:8px;text-align:center}
 .feature p{font-size:.92rem;color:var(--ink-mid);line-height:1.6}
 
 /* ── COMMERCIAL PAGE: full redesign ───────────────────────── */
@@ -1031,7 +1026,7 @@ li{list-style:none}
 .subhero--photo .subhero__bg{position:absolute;inset:0;z-index:-3}
 .subhero--photo .subhero__bg img{
   width:100%;height:100%;object-fit:cover;object-position:50% 56%;
-  filter:blur(3px) saturate(104%);transform:scale(1.05);
+  filter:blur(2px) saturate(104%);transform:scale(1.05);
 }
 .subhero--photo .subhero__scrim{
   position:absolute;inset:0;z-index:-2;
@@ -1190,3 +1185,119 @@ li{list-style:none}
 
 /* ── story: fleet photograph behind the page header ─────────── */
 .subhero--photo .crumb a:hover{color:var(--copper-hi)}
+
+/* ═══════════════════════════════════════════════════════════════
+   SITE EDITS · 2026-09-23
+   Home nav link · home hero CTAs · Midlands reviews band · peeking
+   Mr. Plumber on contact forms · page-level card and CTA tweaks
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── nav: room for the Home link without wrapping ─────────────── */
+@media (min-width:1081px) and (max-width:1240px){
+  .nav__links{gap:2px}
+  .nav__links a{padding:9px 11px}
+  .nav__links a::after{left:11px;right:11px}
+}
+
+/* ── home hero ─────────────────────────────────────────────────── */
+.hero .hero__h1{font-size:clamp(2.05rem,1.3rem + 3.3vw,3.55rem);max-width:21ch}
+
+.btn--orange{
+  background:#D4580C;color:#fff;
+  box-shadow:0 12px 30px -12px rgba(212,88,12,.8);
+}
+.btn--orange:hover{background:#B84A08;transform:translateY(-3px);box-shadow:0 18px 38px -12px rgba(212,88,12,.78)}
+.btn--xl{padding:21px 42px;font-size:1.16rem}
+.btn--xl svg{width:20px;height:20px}
+
+.hero__cta--stack{flex-direction:column;align-items:flex-start}
+.hero__cta-row{display:flex;flex-wrap:wrap;gap:13px}
+.hero__cta-row .btn svg{width:16px;height:16px}
+.hero__cta-row .btn--arrow svg{stroke:currentColor;fill:none}
+
+.hero .creds{justify-content:center}
+
+@media (max-width:720px){
+  .hero__cta--stack{align-items:stretch}
+  .hero__cta-row{flex-direction:column;align-items:stretch}
+  .hero__cta-row .btn{width:100%}
+  /* phones: every hero button is the same size */
+  .hero__cta--stack .btn--xl{padding:17px 32px;font-size:1rem}
+  .hero__cta--stack .btn--xl svg{width:17px;height:17px}
+}
+
+/* ── reviews band over the Midlands photo (home + our story) ─── */
+.sec--midlands{
+  background:#1A2732 url("assets/Midlands_Background.png") center/cover no-repeat;
+  isolation:isolate;
+}
+.sec--midlands::before{
+  content:'';position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(16,24,32,.78) 0%,rgba(16,24,32,.7) 50%,rgba(16,24,32,.8) 100%);
+}
+.sec--midlands .h2{color:#fff;text-shadow:0 2px 24px rgba(10,16,22,.45)}
+.sec--midlands .lede{color:rgba(255,255,255,.9);text-shadow:0 1px 14px rgba(10,16,22,.6)}
+.sec--midlands .eyebrow{color:var(--copper-hi)}
+.sec--midlands .eyebrow__rule{background:var(--copper-hi)}
+
+/* home version: Our Story on top, the two review links side by side below */
+.review__links--stack{flex-direction:column;align-items:center;gap:14px}
+.review__links--stack .review__main{padding:19px 58px;font-size:1.1rem}
+.review__sub{display:flex;flex-wrap:wrap;gap:13px;justify-content:center}
+@media (max-width:560px){
+  .review__sub{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%}
+  .review__sub .btn{white-space:normal;text-align:center;line-height:1.25;padding:12px 10px;font-size:.82rem}
+}
+
+/* ── Mr. Plumber peeking out from behind the contact form ──────
+   --peek-w is the rendered image width. The flat cut on the left of
+   the artwork sits 5.11% in from the image edge; that cut lines up
+   with the card's right edge so his fingers wrap around the card. */
+.formcard--peek{position:relative;--peek-w:clamp(150px,14vw,190px)}
+.peek{
+  position:absolute;top:44px;left:calc(100% - var(--peek-w) * .0511);
+  width:var(--peek-w);height:auto;max-width:none;z-index:2;pointer-events:none;
+  filter:drop-shadow(0 0 2px #fff) drop-shadow(0 4px 12px rgba(0,0,0,.25));
+}
+@media (min-width:768px){
+  /* reserve the room he peeks into so the card never slides under him.
+     --peek-out lets him use the empty page margin on wide screens. */
+  .formcard--peek{margin-right:calc(var(--peek-w) * .949 - var(--peek-out,0px))}
+}
+@media (min-width:1081px){
+  .formcard--peek{--peek-w:165px;--peek-out:clamp(0px,(100vw - 1180px) / 2,var(--peek-w) * .9)}
+  .contact--peek{grid-template-columns:.8fr 1.2fr;gap:48px}
+  .acct--peek{grid-template-columns:.66fr 1.34fr;gap:48px}
+}
+@media (max-width:767px){
+  .peek{display:none}
+  .formcard--peek{margin-right:0}
+}
+
+/* ── commercial ────────────────────────────────────────────────── */
+.cmx-steps__cta{display:flex;justify-content:center;margin-top:34px}
+
+.sec__head--maint{margin-bottom:40px}
+.sec__head--maint .eyebrow{font-weight:800;font-size:.8rem}
+
+.chips--compact{gap:8px}
+.chips--compact li{font-size:.8rem;padding:8px 13px}
+@media (max-width:767px){
+  .chips--compact{display:grid;grid-template-columns:1fr 1fr}
+  .chips--compact li{
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    line-height:1.3;padding:9px 8px;border-radius:14px;
+  }
+}
+
+/* ── tankless page cards ───────────────────────────────────────── */
+.sec__head--wide{max-width:none}
+.feature-grid--lg .feature h3{font-size:1.22rem}
+.cmx-steps--plain .cmx-step::before{content:none}
+.cmx-steps--plain .cmx-step h3{text-align:center;font-size:1.22rem}
+
+/* ── financing ─────────────────────────────────────────────────── */
+/* a lone CTA stretches across the space the two-button row used */
+.btn--fill{width:100%;max-width:var(--fill-w,27.75rem)}
+.fin-ask__head{text-align:center}
+.fin-ask__head .eyebrow{justify-content:center}
