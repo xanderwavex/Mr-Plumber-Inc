@@ -105,7 +105,7 @@ const FORM_ENDPOINT = '';
       const open = btn.getAttribute('aria-expanded') === 'true';
       btn.setAttribute('aria-expanded', String(!open));
       panel.hidden = open;
-      if (label) label.textContent = open ? 'Read More' : 'Less';
+      if (label) label.textContent = open ? 'Read More' : 'Read Less';
     });
   });
 
