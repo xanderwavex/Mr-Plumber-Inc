@@ -38,7 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260923b">
+<link rel="stylesheet" href="styles.css?v=20261007e">
 
 <!-- ═══════════════ STRUCTURED DATA (schema.org) ═══════════════ -->
 <script type="application/ld+json">
@@ -201,7 +201,6 @@
     </header>
 
     <div class="svc-stack">
-      <div class="peek-host peek-host--svc">
       <a class="svc-row reveal" style="--d:.04s" href="services.html">
         <span class="svc-row__media">
           <span class="svc-row__n">01</span>
@@ -213,8 +212,6 @@
           <span class="svc-row__go">See Residential Services <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
         </span>
       </a>
-      <img class="peek" src="assets/mr-plumber-waving.png" alt="" width="560" height="683" loading="lazy" decoding="async" aria-hidden="true">
-      </div>
 
       <a class="svc-row reveal" style="--d:.1s" href="commercial.html">
         <span class="svc-row__media">
@@ -337,19 +334,19 @@
             <div class="select">
               <select id="f-service" name="service" required>
                 <option value="" selected disabled>Choose A Service</option>
-                <option>Emergency plumbing</option>
-                <option>Tankless water heater</option>
-                <option>Water heater repair, replace or install</option>
-                <option>Gas line repair &amp; service</option>
-                <option>Well pump repair or installation</option>
-                <option>Leak detection</option>
-                <option>Whole-house repiping</option>
-                <option>Drain cleaning</option>
-                <option>Sewer services</option>
-                <option>Bathroom repair or remodel</option>
-                <option>Water filtration &amp; treatment</option>
-                <option>Commercial / facility maintenance</option>
-                <option>Something else</option>
+                <option data-key="emergency">Emergency plumbing</option>
+                <option data-key="tankless">Tankless water heater</option>
+                <option data-key="water-heater">Water heater repair, replace or install</option>
+                <option data-key="gas">Gas line repair &amp; service</option>
+                <option data-key="well">Well pump repair or installation</option>
+                <option data-key="leak">Leak detection</option>
+                <option data-key="repipe">Whole-house repiping</option>
+                <option data-key="drain">Drain cleaning</option>
+                <option data-key="sewer">Sewer services</option>
+                <option data-key="bath">Bathroom repair or remodel</option>
+                <option data-key="water">Water filtration &amp; treatment</option>
+                <option data-key="commercial">Commercial / facility maintenance</option>
+                <option data-key="other">Something else</option>
               </select>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
             </div>
@@ -437,6 +434,6 @@
   <span>Call Now</span>
 </a>
 
-<script src="main.js?v=20260923b"></script>
+<script src="main.js?v=20261007e"></script>
 </body>
 </html>

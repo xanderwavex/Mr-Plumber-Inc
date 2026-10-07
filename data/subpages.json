@@ -1,0 +1,2232 @@
+{
+  "_comment": "Single source for every service sub page. Edit here, then run: python3 scripts/build_subpages.py",
+  "image_params": "auto=format&fit=crop&q=80",
+  "images": {
+    "photo-1643104416592-413d797d028d": {
+      "name": "Alberto Zanetti",
+      "user": "chaowongah",
+      "alt": "Spray of water coming out of a pipe"
+    },
+    "photo-1699212783012-bb894c2365cd": {
+      "name": "Ravi Sharma",
+      "user": "ravinepz",
+      "alt": "Door standing in a pool of floodwater"
+    },
+    "photo-1697652973421-0d688f661d89": {
+      "name": "Caleb Wright",
+      "user": "calecrunchy",
+      "alt": "Close-up of a shower head in a bathroom"
+    },
+    "photo-1771122453274-d3270e73cf94": {
+      "name": "Toni Reed",
+      "user": "trfotos",
+      "alt": "Open tool bag packed with hand tools"
+    },
+    "photo-1654440122140-f1fc995ddb34": {
+      "name": "Daniel Dan",
+      "user": "outsideclick",
+      "alt": "Close-up of a metal kitchen sink drain"
+    },
+    "photo-1613849925496-e6d683c091f1": {
+      "name": "Zac Gudakov",
+      "user": "zacgudakov",
+      "alt": "Chrome faucet over a white ceramic bathroom sink"
+    },
+    "photo-1647105604066-86ea4247e217": {
+      "name": "Pedro Forester Da Silva",
+      "user": "pedrotheartist",
+      "alt": "Row of pipes lined up side by side"
+    },
+    "photo-1567257710925-a610b7c140f2": {
+      "name": "Chris Yang",
+      "user": "chrisyangchrisfilm",
+      "alt": "Hand holding a camera with a live video screen"
+    },
+    "photo-1777126958347-ed3cabf2667b": {
+      "name": "Brian Kungu",
+      "user": "oldceltic",
+      "alt": "Worker in a safety vest spraying high-pressure water from a hose"
+    },
+    "photo-1503789146722-cf137a3c0fea": {
+      "name": "Matt Artz",
+      "user": "mattartz",
+      "alt": "Adjustable wrench and pipe wrench side by side"
+    },
+    "photo-1678399233404-ee3d5e2a67b8": {
+      "name": "Vladimir Yelizarov",
+      "user": "yelizarov",
+      "alt": "Supply pipes and fittings mounted on a white wall"
+    },
+    "photo-1524108878281-f9d6d7c09a3c": {
+      "name": "Laura Marques",
+      "user": "lamarqfoto",
+      "alt": "Person rinsing off under a running shower"
+    },
+    "photo-1728509741559-44172bcd86b3": {
+      "name": "Henning Wiekhorst",
+      "user": "henningwiekhorst",
+      "alt": "Close-up of a blue gas flame on a burner"
+    },
+    "photo-1697652973437-9bfede5ab3d4": {
+      "name": "Caleb Wright",
+      "user": "calecrunchy",
+      "alt": "Water running down into a sink basin"
+    },
+    "photo-1713869251324-81252aa6312a": {
+      "name": "BehindTheTmuna",
+      "user": "behindthetmuna",
+      "alt": "Standing water spread across a smooth surface"
+    },
+    "photo-1596110291127-ae31d996aec0": {
+      "name": "Claudio Schwarz",
+      "user": "purzlbaum",
+      "alt": "White vertical pipe running up a gray concrete wall"
+    },
+    "photo-1778855398572-10b5841f50da": {
+      "name": "N1CE",
+      "user": "n1ce",
+      "alt": "Tiled utility room with a white sink and exposed pipes"
+    },
+    "photo-1520697830682-bbb6e85e2b0b": {
+      "name": "Bernard Hermant",
+      "user": "bernardhermant",
+      "alt": "Close-up of a camera lens"
+    },
+    "photo-1700727448575-6f1680cd7d75": {
+      "name": "TruckRun",
+      "user": "truckrun_ebike_systems",
+      "alt": "Technician holding a clipboard during a walkthrough"
+    },
+    "photo-1612438137269-70c848e102e1": {
+      "name": "SELİM ARDA ERYILMAZ",
+      "user": "selimarda6006",
+      "alt": "Crew member resting beside an open excavation"
+    },
+    "photo-1662296416406-4ff3afef67fe": {
+      "name": "Ronit Shaked",
+      "user": "ronit_sha",
+      "alt": "Hands holding a short section of pipe"
+    },
+    "photo-1565364507085-325347bae748": {
+      "name": "roman pentin",
+      "user": "romanenko29061983",
+      "alt": "Excavator beside large sections of pipe"
+    },
+    "photo-1608454770647-01dc0f7dd97d": {
+      "name": "Myko Makh",
+      "user": "mykomoto",
+      "alt": "Gas cooktop with black burner grates"
+    },
+    "photo-1601914697928-0b536e76d048": {
+      "name": "iMattSmart",
+      "user": "imattsmart",
+      "alt": "Residential gas meter and supply piping"
+    },
+    "photo-1622119836803-c52ae67fbbeb": {
+      "name": "Gwenn Klabbers",
+      "user": "reisgekkie",
+      "alt": "Red valve handle on a metal pipe"
+    },
+    "photo-1510467181625-c419e443bdfa": {
+      "name": "CHUTTERSNAP",
+      "user": "chuttersnap",
+      "alt": "Large outdoor pressurized gas tank"
+    },
+    "photo-1589824783837-6169889fa20f": {
+      "name": "Giorgio Trovato",
+      "user": "giorgiotrovato",
+      "alt": "White ceramic toilet with the lid closed"
+    },
+    "photo-1627008952471-a0339ea450c7": {
+      "name": "Noithat rakhoi",
+      "user": "noithatrakhoi",
+      "alt": "Stainless steel shower fixture on white tile"
+    },
+    "photo-1542855368-ca6ea825bca2": {
+      "name": "Sasikan Ulevik",
+      "user": "ulevik",
+      "alt": "Stainless steel faucet over a sink"
+    },
+    "photo-1714894691666-e8bb020c781c": {
+      "name": "Asep Rendi",
+      "user": "aseprendi12",
+      "alt": "Modern bathroom with a toilet beside a walk-in shower"
+    },
+    "photo-1615238168577-0970b17e4a5f": {
+      "name": "Compagnons",
+      "user": "sigmund",
+      "alt": "Blue and white plastic water supply pipe"
+    },
+    "photo-1646009445351-b8192e095f3a": {
+      "name": "Roger Starnes Sr",
+      "user": "rstar50",
+      "alt": "Cluster of pipes and fittings mounted on a wall"
+    },
+    "photo-1606340671662-27ee685dd111": {
+      "name": "Compagnons",
+      "user": "sigmund",
+      "alt": "Gray metal supply pipe running along a concrete wall"
+    },
+    "photo-1620653713380-7a34b773fef8": {
+      "name": "Marian Florinel Condruz",
+      "user": "gottapics",
+      "alt": "Hand holding a yellow and gray hand tool"
+    },
+    "photo-1623008548370-90e908279959": {
+      "name": "Andres Siimon",
+      "user": "johnmcclane",
+      "alt": "Tap water flowing into a cup"
+    },
+    "photo-1551604283-246c763f2cda": {
+      "name": "Herbert Goetsch",
+      "user": "hg_photo",
+      "alt": "Green well pump outdoors"
+    },
+    "photo-1773787853927-6e39f9c37a26": {
+      "name": "Saifee Art",
+      "user": "saifee_art",
+      "alt": "Old water pump against a weathered brick wall"
+    },
+    "photo-1657558665549-bd7d82afed8c": {
+      "name": "mehmet bicakci",
+      "user": "mehmetbicakci",
+      "alt": "Pump unit with connected piping"
+    },
+    "photo-1642552194411-7409e5646a50": {
+      "name": "Adrian Hernandez",
+      "user": "iceage26",
+      "alt": "White pressure tank on the lawn beside a house"
+    },
+    "photo-1653543362916-f7df09926982": {
+      "name": "Alexey Demidov",
+      "user": "alexeydemidov",
+      "alt": "Row of water filtration tanks in a mechanical room"
+    },
+    "photo-1685949546169-0d6e2505acae": {
+      "name": "Igal Ness",
+      "user": "igalness",
+      "alt": "Shower head spraying water against a tiled wall"
+    },
+    "photo-1564644411757-a723deba07a8": {
+      "name": "21 swan",
+      "user": "paradox21",
+      "alt": "Glass filled with clear water"
+    },
+    "photo-1669139470813-827cbcf54b20": {
+      "name": "Swanky Fella",
+      "user": "swankyfella",
+      "alt": "Hand holding a glass of clear drinking water"
+    },
+    "photo-1690337083718-68a120f3531a": {
+      "name": "fr0ggy5",
+      "user": "fr0ggy5",
+      "alt": "Water gushing out of an open fire hydrant"
+    },
+    "photo-1553969914-e109f9d0e171": {
+      "name": "Sebastian Herrmann",
+      "user": "herrherrmann",
+      "alt": "Two gate valves on a water line"
+    },
+    "photo-1698031610493-c19fa20dfeab": {
+      "name": "Jahhid Fitrah Alamsyah",
+      "user": "jafsyah14",
+      "alt": "Close-up of pipes and valves in a plant room"
+    },
+    "photo-1530124566582-a618bc2615dc": {
+      "name": "Quilia",
+      "user": "heyquilia",
+      "alt": "Close-up of a set of wrenches"
+    },
+    "photo-1741394556992-b2a082d157d5": {
+      "name": "tommao wang",
+      "user": "tommaomaoer",
+      "alt": "Worker cleaning pavement with a high-pressure hose"
+    },
+    "photo-1763100351670-756f71d57c9f": {
+      "name": "Yimeng Zhao",
+      "user": "kikiz",
+      "alt": "Close-up of a stainless steel sink drain"
+    },
+    "photo-1546715999-10641191307a": {
+      "name": "7500 RPM",
+      "user": "7500rpm",
+      "alt": "View down the inside of a tunnel"
+    },
+    "photo-1618840626133-54463084a141": {
+      "name": "Peter Herrmann",
+      "user": "tama66",
+      "alt": "Black and white close-up of a metal pipe"
+    },
+    "photo-1787938470676-28af741f8ba9": {
+      "name": "Alexia Balaguer",
+      "user": "alexiabalaguerisnice",
+      "alt": "Three tall metal tanks with pressure gauges against a brick wall"
+    },
+    "photo-1773517458906-b2c7c94ad5b2": {
+      "name": "Dave Meckler",
+      "user": "phosphorvs",
+      "alt": "Industrial pipes and valves above an open boiler door"
+    },
+    "photo-1773517459133-be9768f6cac9": {
+      "name": "Dave Meckler",
+      "user": "phosphorvs",
+      "alt": "Industrial pipes and machinery in a plant room"
+    },
+    "photo-1581166397057-235af2b3c6dd": {
+      "name": "Elena Rouame",
+      "user": "roum",
+      "alt": "Red and silver adjustable wrench"
+    },
+    "photo-1663625318125-ce6308a46bf6": {
+      "name": "Alicia Christin Gerald",
+      "user": "allysphotos",
+      "alt": "Close-up of a running faucet"
+    },
+    "photo-1747999703278-ef065c39cb18": {
+      "name": "TECNIC Bioprocess Solutions",
+      "user": "tecnic",
+      "alt": "Worker preparing a metal pipe with a hand grinder"
+    },
+    "photo-1789303390930-06b04ffdba51": {
+      "name": "Peter Herrmann",
+      "user": "tama66",
+      "alt": "Mechanical room with red pipes and a concrete floor"
+    },
+    "photo-1622801179563-94f5aa9a1c6d": {
+      "name": "Doris Morgan",
+      "user": "d_morgan",
+      "alt": "Close-up of a utility meter on a building exterior"
+    },
+    "photo-1722411487131-23bb3ac91df3": {
+      "name": "iridial",
+      "user": "iridial_",
+      "alt": "Black and white close-up of a pipe"
+    },
+    "photo-1593583810872-ddee4d6bd55a": {
+      "name": "SELİM ARDA ERYILMAZ",
+      "user": "selimarda6006",
+      "alt": "Worker climbing out of an excavated trench on a ladder"
+    },
+    "photo-1530219451035-fb499f9fc714": {
+      "name": "Pawel Czerwinski",
+      "user": "pawel_czerwinski",
+      "alt": "Close-up of the open end of a large construction pipe"
+    },
+    "photo-1742858046408-45953cab801e": {
+      "name": "Aleksi Partanen",
+      "user": "aleksi_p",
+      "alt": "Pipes installed along a ribbed ceiling"
+    },
+    "photo-1607324772107-8ad6740ca195": {
+      "name": "KWON JUNHO",
+      "user": "juno1412",
+      "alt": "Lit gas stove burner in a dark kitchen"
+    },
+    "photo-1789568682937-5df65668d8d3": {
+      "name": "engin akyurt",
+      "user": "enginakyurt",
+      "alt": "Stainless pots and a fryer basket on a commercial kitchen line"
+    },
+    "photo-1738964859995-0978e6ae79f3": {
+      "name": "Haberdoedas",
+      "user": "haberdoedas",
+      "alt": "Propane tank with a pressure gauge on top"
+    },
+    "photo-1622801185864-874be8248594": {
+      "name": "Doris Morgan",
+      "user": "d_morgan",
+      "alt": "Row of utility meters and piping outside a restaurant"
+    },
+    "photo-1529269421632-e9253d14d3a9": {
+      "name": "Pawel Czerwinski",
+      "user": "pawel_czerwinski",
+      "alt": "Red and white pipes running along a wall"
+    },
+    "photo-1637345158353-40607a208d46": {
+      "name": "Peter Herrmann",
+      "user": "tama66",
+      "alt": "Underground plant room filled with piping"
+    },
+    "photo-1782353921981-bb73a53a7482": {
+      "name": "Josh Lemmon",
+      "user": "wolfiex2",
+      "alt": "Unfinished basement with exposed joists and support posts"
+    },
+    "photo-1700885349896-c7f847dcf39f": {
+      "name": "Meg",
+      "user": "megindoors",
+      "alt": "Yellow pipes mounted along a wall"
+    },
+    "photo-1782749878073-535d5e99fece": {
+      "name": "Evan Marvell",
+      "user": "evan_marvell",
+      "alt": "Wall-mounted sink and soap dispenser in a restroom"
+    },
+    "photo-1759497904878-82c9bb21b2f6": {
+      "name": "jacopo marello",
+      "user": "jacmar",
+      "alt": "Row of sinks and stalls in a public restroom"
+    },
+    "photo-1664227430687-9299c593e3da": {
+      "name": "Yosuke Ota",
+      "user": "yosuke_ota",
+      "alt": "Hotel bathroom with a tub, sink and toilet"
+    },
+    "photo-1790156591172-ea5f8427bbbc": {
+      "name": "Ceba Solutions",
+      "user": "professional_photos_online",
+      "alt": "Commercial kitchen corridor with stainless units and a sink"
+    },
+    "photo-1790156591731-09dbf6aee75a": {
+      "name": "Ceba Solutions",
+      "user": "professional_photos_online",
+      "alt": "Back-of-house restaurant prep kitchen with stainless worktops"
+    },
+    "photo-1742660861454-22f55faf113a": {
+      "name": "Ayrus Hill",
+      "user": "ayrus_hill",
+      "alt": "Glass water dispenser with drinking glasses"
+    },
+    "photo-1615749721143-3a38368d3d05": {
+      "name": "Clem Onojeghuo",
+      "user": "clemono",
+      "alt": "Person rinsing dishes at a kitchen sink"
+    },
+    "photo-1560192776-60a3bab7190d": {
+      "name": "LuAnn Hunt",
+      "user": "luannhunt180",
+      "alt": "Filling a cup at a drinking water station"
+    },
+    "photo-1743333601396-9fc5cf8ec344": {
+      "name": "Daniele Romanello",
+      "user": "dannythekid",
+      "alt": "Water being poured into a glass"
+    },
+    "photo-1743385779431-45d26d9775b1": {
+      "name": "Kelly Sikkema",
+      "user": "kellysikkema",
+      "alt": "Clipboard and pens on a wooden surface"
+    },
+    "photo-1613206485381-b028e578e791": {
+      "name": "Dmitriy Demidov",
+      "user": "fotograw",
+      "alt": "Set of wrenches arranged in a circle"
+    },
+    "photo-1754548930574-6a995e5eb5a7": {
+      "name": "Jakub Żerdzicki",
+      "user": "jakubzerdzicki",
+      "alt": "Hand checking off items on a checklist"
+    },
+    "photo-1589109807644-924edf14ee09": {
+      "name": "Ricardo Gomez Angel",
+      "user": "rgaleriacom",
+      "alt": "Commercial kitchen with stainless dishwashing equipment and shelving"
+    }
+  },
+  "pages": [
+    {
+      "slug": "residential-emergency-plumbing",
+      "section": "residential",
+      "card_id": "res-emergency",
+      "service": "emergency",
+      "name": "Emergency Plumbing",
+      "meta_title": "Emergency Plumber in Columbia & the Midlands, SC | Mr. Plumber, Inc.",
+      "meta_description": "Emergency plumbing for homes in Columbia and the Midlands, SC: burst pipes, major leaks, failed water heaters and no-water calls. Call Mr. Plumber at 803-600-4357.",
+      "hero_img": "photo-1669920282671-e2f03e99513f",
+      "hero_credit": [
+        "Ian Talmacs",
+        "iantalmacs"
+      ],
+      "summary": "Burst pipes, flooding, no water or no hot water. Call and we'll get a plumber headed your way.",
+      "intro_what": "Emergency plumbing is the work that can't wait for a convenient day: water where it shouldn't be, no water where it should be, or a failed water heater. Our first job is to stop the damage, then we make a lasting repair.",
+      "intro_signs": [
+        "Water spraying or pouring from a pipe or fitting",
+        "Water on the floor, through a ceiling or down a wall",
+        "No water at any faucet in the house",
+        "Sewage coming back up through a drain"
+      ],
+      "intro_expect": "Call 803-600-4357 and tell us what you're seeing. We'll walk you through shutting off the water if it's safe to do so, send a plumber, stop the leak, and explain the repair options before any work starts.",
+      "cards": [
+        {
+          "title": "Burst & Broken Pipes",
+          "img": "photo-1643104416592-413d797d028d",
+          "desc": "A split pipe can put a lot of water into a home very quickly. We stop the flow, cut out the damaged section and replace it with new pipe so the line is solid again.",
+          "included": [
+            "Help locating and closing your main shutoff",
+            "Locating the break",
+            "Cutting out and replacing the damaged section",
+            "Restoring water and checking for further leaks"
+          ],
+          "signs": [
+            "Water spraying or pouring from a pipe",
+            "A sudden drop in water pressure",
+            "The sound of running water when nothing is on"
+          ]
+        },
+        {
+          "title": "Major Leaks & Water in the House",
+          "img": "photo-1699212783012-bb894c2365cd",
+          "desc": "When water is pooling on the floor or coming through a ceiling, the source needs to be found fast. We trace the leak, stop it, and repair the line or fixture that failed.",
+          "included": [
+            "Tracing the source of the water",
+            "Shutting down the affected line",
+            "Repairing the failed pipe, valve or fixture",
+            "Testing the repair under normal pressure"
+          ],
+          "signs": [
+            "Standing water on floors",
+            "Water stains spreading on a ceiling or wall",
+            "Dripping from light fixtures or vents"
+          ]
+        },
+        {
+          "title": "No Hot Water",
+          "img": "photo-1697652973421-0d688f661d89",
+          "desc": "A water heater that quits or starts leaking from the tank needs attention right away. We find out why it stopped, repair it when that makes sense, and tell you plainly when it's time to replace it.",
+          "included": [
+            "Diagnosing gas and electric water heaters",
+            "Checking burners, elements, thermostats and valves",
+            "Shutting down a leaking tank safely",
+            "Repair or replacement options explained on site"
+          ],
+          "signs": [
+            "Showers running cold",
+            "Water pooling around the base of the tank",
+            "Popping, rumbling or a burning smell from the unit"
+          ]
+        },
+        {
+          "title": "No Water to the House",
+          "img": "photo-1771122453274-d3270e73cf94",
+          "desc": "If nothing comes out of any faucet, the problem could be a main line, a valve, or a well pump. We work through the system until we find it and get water flowing again.",
+          "included": [
+            "Checking the main shutoff and supply valves",
+            "Inspecting the water service line",
+            "Testing the well pump and pressure tank on well homes",
+            "Repairing the failed part"
+          ],
+          "signs": [
+            "No water at any faucet",
+            "Sputtering faucets with air in the lines",
+            "Water that comes back for a moment, then stops"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-drain-cleaning",
+      "section": "residential",
+      "card_id": "res-drain",
+      "service": "drain",
+      "name": "Drain Cleaning & Jetting",
+      "meta_title": "Drain Cleaning & Hydro Jetting in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Kitchen, bathroom and main sewer line drain cleaning, camera inspection and hydro jetting for homes across Columbia and the Midlands, SC. Family owned since 1958.",
+      "hero_img": "photo-1749532125405-70950966b0e5",
+      "hero_credit": [
+        "bhagya laxmi",
+        "bhagya_laxmi"
+      ],
+      "summary": "Fast, thorough clearing for slow and stopped drains, with camera inspection available.",
+      "intro_what": "Drain cleaning clears the grease, hair, soap and debris that build up inside your pipes. Depending on the clog, we use a cable machine, a camera to see what's inside, or a high-pressure water jet to scour the line clean.",
+      "intro_signs": [
+        "Sinks, tubs or showers that drain slowly",
+        "Gurgling sounds from drains or toilets",
+        "Water backing up in more than one fixture",
+        "Sewer odors inside the house"
+      ],
+      "intro_expect": "We start by asking which fixtures are affected, which tells us whether it's a single drain or the main line. We clear the clog, run water to confirm it flows freely, and show you camera footage when we use it.",
+      "cards": [
+        {
+          "title": "Kitchen Drains",
+          "img": "photo-1654440122140-f1fc995ddb34",
+          "desc": "Kitchen lines clog from grease, food scraps and soap that harden inside the pipe. We clear the line from the sink to where it joins the main so the whole run flows again.",
+          "included": [
+            "Clearing the sink drain and trap",
+            "Cabling the branch line",
+            "Checking garbage disposal connections",
+            "Flow test after cleaning"
+          ],
+          "signs": [
+            "Water standing in the sink after use",
+            "Dishwasher water backing into the sink",
+            "Bad smell coming from the drain"
+          ]
+        },
+        {
+          "title": "Bathroom Drains",
+          "img": "photo-1613849925496-e6d683c091f1",
+          "desc": "Hair and soap scum are the usual cause of slow sinks, tubs and showers. We pull the blockage out and clean the line instead of just pushing it further down.",
+          "included": [
+            "Sink, tub and shower drain clearing",
+            "Removing and cleaning stoppers and traps",
+            "Toilet clog clearing",
+            "Flow test on every fixture we touch"
+          ],
+          "signs": [
+            "Water pooling around your feet in the shower",
+            "Slow-draining bathroom sink",
+            "Toilet that clogs often"
+          ]
+        },
+        {
+          "title": "Main Sewer Lines",
+          "img": "photo-1647105604066-86ea4247e217",
+          "desc": "When several drains back up at once, the clog is usually in the main line that carries everything out to the sewer or septic. We clear it from a cleanout so every fixture drains again.",
+          "included": [
+            "Locating and opening the cleanout",
+            "Cabling the main line",
+            "Clearing roots and heavy buildup",
+            "Checking every fixture afterward"
+          ],
+          "signs": [
+            "Several drains backing up at the same time",
+            "Water coming up in the tub when the toilet flushes",
+            "Gurgling from floor drains or toilets"
+          ]
+        },
+        {
+          "title": "Camera Inspection",
+          "img": "photo-1567257710925-a610b7c140f2",
+          "desc": "A camera on a flexible cable lets us see inside your pipes. It shows exactly where and why a line keeps clogging, so you aren't guessing about the next step.",
+          "included": [
+            "Video inspection of the drain or sewer line",
+            "Locating the problem spot and its depth",
+            "Walking you through the footage",
+            "Recommendations based on what we see"
+          ],
+          "signs": [
+            "Clogs that keep coming back",
+            "Buying an older home",
+            "Suspected roots or a broken pipe"
+          ]
+        },
+        {
+          "title": "Hydro Jetting",
+          "img": "photo-1777126958347-ed3cabf2667b",
+          "desc": "Hydro jetting sends high-pressure water through the pipe to scour off grease, scale and roots. It cleans the full width of the pipe wall, which helps the line stay clear longer.",
+          "included": [
+            "Camera check to confirm the pipe can take jetting",
+            "High-pressure cleaning of the line",
+            "Flushing debris out to the sewer",
+            "Final flow test"
+          ],
+          "signs": [
+            "Grease buildup that cabling doesn't fix",
+            "Repeat main line clogs",
+            "Root intrusion in the sewer line"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-water-heaters",
+      "section": "residential",
+      "card_id": "res-wh",
+      "service": "water-heater",
+      "name": "Water Heater Repair & Replacement",
+      "meta_title": "Water Heater Repair & Replacement in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Tank water heater repair and replacement for Columbia and the Midlands, SC. Gas and electric units, all makes and models, same-day replacement available.",
+      "hero_img": "photo-1575299737366-39c143459bc5",
+      "hero_credit": [
+        "Michal Balog",
+        "mikbutcher"
+      ],
+      "summary": "Gas and electric, all makes and models, with same-day replacement available.",
+      "intro_what": "Your water heater runs every day, and sediment, worn parts and age eventually catch up with it. We repair what can be repaired and replace units that have reached the end of their life.",
+      "intro_signs": [
+        "Hot water runs out faster than it used to",
+        "Rusty or discolored hot water",
+        "Rumbling or popping from the tank",
+        "Water around the base of the unit"
+      ],
+      "intro_expect": "We check the unit, find the cause and tell you whether a repair or a replacement makes more sense for its age and condition. If you're replacing it, we install the new unit, connect it to code, and haul the old one away.",
+      "cards": [
+        {
+          "title": "Tank Water Heater Repair",
+          "img": "photo-1503789146722-cf137a3c0fea",
+          "desc": "Many problems come down to one worn part, like a thermostat, element, igniter or valve. We test the unit, replace the part that failed, and check that it's heating safely again.",
+          "included": [
+            "Full diagnostic of the unit",
+            "Thermostat, element and igniter replacement",
+            "Pressure relief valve check",
+            "Leak check on all connections"
+          ],
+          "signs": [
+            "Lukewarm water only",
+            "Pilot light that won't stay lit",
+            "Tripped breaker on an electric unit"
+          ]
+        },
+        {
+          "title": "Tank Replacement",
+          "img": "photo-1678399233404-ee3d5e2a67b8",
+          "desc": "When a tank is leaking or worn out, replacement is the safe fix. We size the new unit to your household, install it to code and take the old one with us.",
+          "included": [
+            "Sizing help for your household",
+            "Removal and haul-away of the old unit",
+            "New supply, venting and valve connections",
+            "Startup and temperature check"
+          ],
+          "signs": [
+            "Water leaking from the tank itself",
+            "Rust on the tank or in the water",
+            "A unit that needs repeated repairs"
+          ]
+        },
+        {
+          "title": "Same-Day Replacement",
+          "img": "photo-1524108878281-f9d6d7c09a3c",
+          "desc": "Going without hot water is hard on any household. Same-day replacement is available, so in many cases you can have hot water back the same day you call.",
+          "included": [
+            "Prompt scheduling when you call",
+            "Replacement unit sized to your home",
+            "Full installation and code-compliant connections",
+            "Old unit removed"
+          ],
+          "signs": [
+            "No hot water at all",
+            "A tank that has started leaking"
+          ]
+        },
+        {
+          "title": "Gas & Electric Units",
+          "img": "photo-1728509741559-44172bcd86b3",
+          "desc": "We work on both natural gas and electric water heaters, all makes and models. Each has its own parts and safety checks, and we know both well.",
+          "included": [
+            "Gas burner, pilot and venting checks",
+            "Electric element and thermostat testing",
+            "Gas line connection and leak test",
+            "Advice on switching fuel types"
+          ],
+          "signs": [
+            "Yellow or flickering burner flame",
+            "One element failing on an electric unit",
+            "Hot water that takes a long time to recover"
+          ]
+        },
+        {
+          "title": "Annual Flush & Maintenance",
+          "img": "photo-1697652973437-9bfede5ab3d4",
+          "desc": "Midlands water leaves sediment in the bottom of the tank, which makes the heater work harder and wear out sooner. A yearly flush and check helps the unit last.",
+          "included": [
+            "Draining and flushing sediment",
+            "Testing the pressure relief valve",
+            "Inspecting the anode rod",
+            "Checking connections and venting"
+          ],
+          "signs": [
+            "Rumbling or popping while the unit heats",
+            "Cloudy or gritty hot water",
+            "No service in the past year"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-leak-detection",
+      "section": "residential",
+      "card_id": "res-leak",
+      "service": "leak",
+      "name": "Leak Detection",
+      "meta_title": "Leak Detection in Columbia & Irmo, SC | Mr. Plumber, Inc.",
+      "meta_description": "Electronic and camera leak detection for hidden slab, in-wall and supply line leaks in homes across Columbia, Irmo, Lexington and the Midlands, SC.",
+      "hero_img": "photo-1676210134188-4c05dd172f89",
+      "hero_credit": [
+        "Timur Shakerzianov",
+        "shaker_jpg"
+      ],
+      "summary": "We find hidden leaks in slabs, walls and supply lines before they do real damage.",
+      "intro_what": "Leak detection finds water escaping where you can't see it: under a slab, inside a wall or along a buried line. Locating it precisely means we open only what's needed to make the repair.",
+      "intro_signs": [
+        "A water bill that jumps without explanation",
+        "Warm spots on the floor",
+        "Damp drywall, peeling paint or musty smells",
+        "The water meter moving with everything turned off"
+      ],
+      "intro_expect": "We start with a meter test to confirm there's a leak, then use electronic listening equipment and cameras to pinpoint it. You'll see where it is and what the repair involves before anything is opened up.",
+      "cards": [
+        {
+          "title": "Slab Leaks",
+          "img": "photo-1713869251324-81252aa6312a",
+          "desc": "A slab leak is a break in a water line that runs under your concrete floor. We pinpoint the spot so the repair is as small and clean as possible.",
+          "included": [
+            "Meter and pressure testing",
+            "Electronic leak location through the slab",
+            "Repair or reroute options explained",
+            "Final pressure test"
+          ],
+          "signs": [
+            "Warm or damp spots on the floor",
+            "Sound of running water under the floor",
+            "High water bills with no visible leak"
+          ]
+        },
+        {
+          "title": "In-Wall Leaks",
+          "img": "photo-1596110291127-ae31d996aec0",
+          "desc": "Pipes inside walls can drip for months before you see a stain. We find the leak from the outside of the wall and open only the area we need to reach it.",
+          "included": [
+            "Moisture and acoustic testing",
+            "Locating the leak inside the wall",
+            "Small, targeted opening for access",
+            "Pipe repair and pressure check"
+          ],
+          "signs": [
+            "Stains or bubbling paint on walls",
+            "Soft or warped drywall",
+            "Musty smell in one room"
+          ]
+        },
+        {
+          "title": "Fixture & Supply Line Leaks",
+          "img": "photo-1778855398572-10b5841f50da",
+          "desc": "Supply lines and shutoff valves under sinks, toilets and appliances wear out over time. We find the drip and replace the worn line or valve before it lets go.",
+          "included": [
+            "Checking supply lines and shutoff valves",
+            "Inspecting toilet, sink and appliance connections",
+            "Replacing worn lines and valves",
+            "Leak check after repair"
+          ],
+          "signs": [
+            "Water in the cabinet under a sink",
+            "Toilet that runs or hisses",
+            "Corroded or bulging supply hoses"
+          ]
+        },
+        {
+          "title": "Electronic & Camera Location",
+          "img": "photo-1520697830682-bbb6e85e2b0b",
+          "desc": "Listening equipment picks up the sound of escaping water, and cameras let us look inside drain lines. Together they show where the problem is without guesswork.",
+          "included": [
+            "Acoustic leak detection",
+            "Camera inspection of drain lines",
+            "Marking the leak location",
+            "A clear explanation of what we found"
+          ],
+          "signs": [
+            "You know there's a leak but can't find it",
+            "Water damage with no obvious source"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-sewer-services",
+      "section": "residential",
+      "card_id": "res-sewer",
+      "service": "sewer",
+      "name": "Sewer Services",
+      "meta_title": "Sewer Line Repair & Replacement in the Midlands, SC | Mr. Plumber, Inc.",
+      "meta_description": "Sewer line inspection, spot repairs, trenchless options and full sewer line replacement for homes in Columbia and the Midlands, SC.",
+      "hero_img": "photo-1693907986952-3cd372e4c9d8",
+      "hero_credit": [
+        "Rose Galloway Green",
+        "rgreen"
+      ],
+      "summary": "Camera inspection, spot repairs, trenchless options and full sewer line replacement.",
+      "intro_what": "Your sewer line carries every drain in the house out to the city sewer or your septic tank. Roots, shifting soil and age can crack, sag or collapse it, and we inspect it, repair it, or replace it.",
+      "intro_signs": [
+        "Repeated main line backups",
+        "Sewage smell in the yard or house",
+        "Soggy or sunken spots in the lawn",
+        "Drains that gurgle after flushing"
+      ],
+      "intro_expect": "We start with a camera inspection to see the condition of the line and find the trouble spot. Then we walk you through the options, from a spot repair to a full replacement, and what each one involves for your yard.",
+      "cards": [
+        {
+          "title": "Sewer Line Inspection",
+          "img": "photo-1700727448575-6f1680cd7d75",
+          "desc": "An inspection shows the condition of your sewer line from the house to the street. It's the right first step before any repair, and smart when you're buying a home.",
+          "included": [
+            "Camera inspection of the full line",
+            "Locating problem spots and depth",
+            "Notes on roots, sags and cracks",
+            "Recommendations based on what we find"
+          ],
+          "signs": [
+            "Backups that keep coming back",
+            "Buying or selling an older home",
+            "Large trees near the sewer line"
+          ]
+        },
+        {
+          "title": "Spot Repairs",
+          "img": "photo-1612438137269-70c848e102e1",
+          "desc": "When the damage is limited to one section, we repair just that section. It costs less and disturbs less of your yard than replacing the whole line.",
+          "included": [
+            "Pinpointing the damaged section",
+            "Excavating only the repair area",
+            "Replacing the broken pipe",
+            "Backfill and flow test"
+          ],
+          "signs": [
+            "One crack or offset joint found on camera",
+            "Roots entering at a single joint"
+          ]
+        },
+        {
+          "title": "Trenchless Options",
+          "img": "photo-1662296416406-4ff3afef67fe",
+          "desc": "Trenchless methods repair or replace a sewer line through small access points instead of a long open trench. When your line is a good fit, it saves your driveway, landscaping and lawn.",
+          "included": [
+            "Camera check to confirm the line is a fit",
+            "Small access points instead of a full trench",
+            "Repair or replacement of the line",
+            "Final camera check"
+          ],
+          "signs": [
+            "Sewer line runs under a driveway or patio",
+            "Mature landscaping over the line"
+          ]
+        },
+        {
+          "title": "Full Line Replacement",
+          "img": "photo-1565364507085-325347bae748",
+          "desc": "When a sewer line is collapsed, badly sagged or failing in several places, replacing it is the lasting fix. We install new pipe from the house to the connection point.",
+          "included": [
+            "Removal of the failed line",
+            "New sewer pipe installed to code",
+            "New cleanout where needed",
+            "Flow test and site cleanup"
+          ],
+          "signs": [
+            "Collapsed or crushed pipe on camera",
+            "Multiple breaks along the line",
+            "Old clay or cast iron pipe failing"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-gas-lines",
+      "section": "residential",
+      "card_id": "res-gas",
+      "service": "gas",
+      "name": "Gas Line Repair & Service",
+      "meta_title": "Gas Line Repair & Installation in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Gas line installation, leak repair and pressure testing for natural gas and propane in homes across Columbia and the Midlands, SC. Done to code.",
+      "hero_img": "photo-1607472586893-edb57bdc0e39",
+      "hero_credit": [
+        "Compagnons",
+        "sigmund"
+      ],
+      "summary": "Installation, leak repair and pressure testing for natural gas and propane lines, done to code.",
+      "intro_what": "Gas lines feed your range, water heater, dryer, fireplace and other appliances. We install new lines, repair leaks and pressure test the system so it runs safely.",
+      "intro_signs": [
+        "Smell of gas near an appliance or meter",
+        "Hissing sound near a gas line",
+        "Adding a gas range, dryer or water heater",
+        "Yellow or uneven burner flames"
+      ],
+      "intro_expect": "If you smell gas, leave the house first and call your gas utility, then call us for the repair. For planned work, we look at where the line needs to go, install or repair it to code, and pressure test before anything is turned back on.",
+      "cards": [
+        {
+          "title": "New Gas Lines & Appliance Hookups",
+          "img": "photo-1608454770647-01dc0f7dd97d",
+          "desc": "Adding a gas range, dryer, water heater or fireplace means running a new line from the existing supply. We size and route it properly and connect the appliance safely.",
+          "included": [
+            "Planning the line route and size",
+            "Running new gas piping",
+            "Shutoff valve at the appliance",
+            "Connection and leak test"
+          ],
+          "signs": [
+            "Switching from electric to gas appliances",
+            "Adding a fireplace or outdoor kitchen"
+          ]
+        },
+        {
+          "title": "Gas Leak Repair",
+          "img": "photo-1601914697928-0b536e76d048",
+          "desc": "A gas leak is a safety problem that needs a professional repair. We find the leak, repair or replace the fitting or section of pipe, and test before restoring service.",
+          "included": [
+            "Locating the leak",
+            "Repairing or replacing fittings and pipe",
+            "Pressure test of the repaired line",
+            "Relighting appliances"
+          ],
+          "signs": [
+            "Rotten egg smell indoors or near the meter",
+            "Hissing near a gas line",
+            "Dead patch of grass over a buried line"
+          ]
+        },
+        {
+          "title": "Pressure Testing",
+          "img": "photo-1622119836803-c52ae67fbbeb",
+          "desc": "A pressure test confirms a gas system holds tight with no leaks. It's often required after new work, during remodels, or before service is turned on.",
+          "included": [
+            "Isolating the system",
+            "Pressurizing and monitoring the line",
+            "Checking joints and fittings",
+            "Results explained when we finish"
+          ],
+          "signs": [
+            "New gas line work",
+            "Remodel or addition",
+            "Gas service being restored after a shutoff"
+          ]
+        },
+        {
+          "title": "Natural Gas & Propane",
+          "img": "photo-1510467181625-c419e443bdfa",
+          "desc": "Many Midlands homes run on propane instead of natural gas. We work on both, from the tank or meter connection to the appliances inside the house.",
+          "included": [
+            "Service on natural gas and propane systems",
+            "Line runs from the tank or meter",
+            "Appliance connections",
+            "Leak and pressure checks"
+          ],
+          "signs": [
+            "Adding appliances to a propane home",
+            "Moving or upgrading a propane tank connection"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-bathrooms",
+      "section": "residential",
+      "card_id": "res-bath",
+      "service": "bath",
+      "name": "Bathroom Repairs & Remodels",
+      "meta_title": "Bathroom Plumbing Repairs & Remodels in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Toilet, shower, tub, sink and faucet repairs plus full bathroom remodel plumbing for homes in Columbia and the Midlands, SC. Family owned since 1958.",
+      "hero_img": "photo-1696987007764-7f8b85dd3033",
+      "hero_credit": [
+        "Clay Banks",
+        "claybanks"
+      ],
+      "summary": "From a single fixture swap to a full bathroom renovation, plumbed right and built to last.",
+      "intro_what": "Bathroom plumbing covers every fixture in the room and the pipes behind them. We handle small repairs and replacements and the plumbing side of a full remodel.",
+      "intro_signs": [
+        "Toilet that runs, rocks or clogs often",
+        "Dripping faucet or shower head",
+        "Shower that won't hold a steady temperature",
+        "Outdated fixtures you're ready to replace"
+      ],
+      "intro_expect": "For a repair, we diagnose the fixture and fix or replace it in the same visit when we can. For a remodel, we plan the layout with you, rough in the new plumbing, and set the fixtures once the room is finished.",
+      "cards": [
+        {
+          "title": "Toilet Repair & Replacement",
+          "img": "photo-1589824783837-6169889fa20f",
+          "desc": "Running, leaking or wobbling toilets waste water and can damage the floor. We repair the inside parts or replace the toilet and seal it properly.",
+          "included": [
+            "Fill valve, flapper and flush repairs",
+            "Wax ring and flange replacement",
+            "New toilet installation",
+            "Leak check at the base and supply"
+          ],
+          "signs": [
+            "Toilet runs after flushing",
+            "Water around the base",
+            "Toilet rocks when you sit down"
+          ]
+        },
+        {
+          "title": "Shower & Tub Valves",
+          "img": "photo-1627008952471-a0339ea450c7",
+          "desc": "The valve behind the handle controls temperature and flow. We repair or replace worn valves so your shower runs steady and stops dripping.",
+          "included": [
+            "Cartridge and valve repair",
+            "Full valve replacement",
+            "Shower head and tub spout replacement",
+            "Temperature and flow check"
+          ],
+          "signs": [
+            "Shower drips after it's turned off",
+            "Water suddenly goes hot or cold",
+            "Handle is hard to turn"
+          ]
+        },
+        {
+          "title": "Sinks & Faucets",
+          "img": "photo-1542855368-ca6ea825bca2",
+          "desc": "A new faucet or vanity sink is one of the easiest bathroom upgrades. We install it cleanly and replace the shutoffs and supply lines while we're there.",
+          "included": [
+            "Faucet installation and repair",
+            "Vanity sink installation",
+            "New shutoff valves and supply lines",
+            "Drain and trap connections"
+          ],
+          "signs": [
+            "Dripping faucet",
+            "Low flow from the tap",
+            "Corroded or stained fixtures"
+          ]
+        },
+        {
+          "title": "Full Bathroom Remodels",
+          "img": "photo-1714894691666-e8bb020c781c",
+          "desc": "A remodel is the time to move fixtures, update old pipe and plan for the layout you want. We handle the plumbing from rough-in through the final fixture set.",
+          "included": [
+            "Layout planning for plumbing",
+            "Rough-in for new fixture locations",
+            "Updating old supply and drain pipe",
+            "Final fixture installation"
+          ],
+          "signs": [
+            "Planning a bathroom renovation",
+            "Adding a bathroom",
+            "Converting a tub to a walk-in shower"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-repiping",
+      "section": "residential",
+      "card_id": "res-repipe",
+      "service": "repipe",
+      "name": "Whole-House Repipes",
+      "meta_title": "Whole-House Repiping in Lexington & Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "PEX and copper whole-house repiping, polybutylene and galvanized replacement, and partial repipes for homes in Columbia, Lexington and the Midlands, SC. Financing available.",
+      "hero_img": "photo-1769376695235-d3253548a5d7",
+      "hero_credit": [
+        "Zach M",
+        "zachmmalin"
+      ],
+      "summary": "Copper, PEX and more, to end recurring leaks, rusty water and low pressure for good.",
+      "intro_what": "A repipe replaces the water supply lines in your home with new pipe. It's the lasting fix when old pipe keeps leaking, corroding or choking off your water pressure.",
+      "intro_signs": [
+        "Leaks that keep showing up in different spots",
+        "Rusty or discolored water",
+        "Low pressure throughout the house",
+        "Polybutylene or galvanized pipe in the home"
+      ],
+      "intro_expect": "We look at your current pipe, talk through PEX versus copper, and plan the route to keep wall openings to a minimum. During the work we keep you informed about when water will be off, then pressure test the new system. Financing is available for larger jobs.",
+      "cards": [
+        {
+          "title": "PEX Repiping",
+          "img": "photo-1615238168577-0970b17e4a5f",
+          "desc": "PEX is a flexible plastic pipe that resists corrosion and scale. It bends around corners with fewer fittings, which often means fewer wall openings.",
+          "included": [
+            "New PEX supply lines to every fixture",
+            "New shutoff valves",
+            "Connection to your main",
+            "Full system pressure test"
+          ],
+          "signs": [
+            "Corroded or leaking old pipe",
+            "Want a faster, less invasive repipe"
+          ]
+        },
+        {
+          "title": "Copper Repiping",
+          "img": "photo-1646009445351-b8192e095f3a",
+          "desc": "Copper is a proven, long-lasting choice for water lines. Some homeowners prefer it, and it's a good match where existing copper is already in place.",
+          "included": [
+            "New copper supply lines",
+            "Soldered joints and new fittings",
+            "New shutoff valves",
+            "Full system pressure test"
+          ],
+          "signs": [
+            "Preference for metal pipe",
+            "Pinhole leaks in older copper"
+          ]
+        },
+        {
+          "title": "Polybutylene & Galvanized Replacement",
+          "img": "photo-1606340671662-27ee685dd111",
+          "desc": "Polybutylene and galvanized steel pipe are known to fail with age. Replacing them before a major leak protects your home and restores good water pressure.",
+          "included": [
+            "Identifying old pipe types in your home",
+            "Removing or bypassing the old lines",
+            "New PEX or copper supply",
+            "Pressure test and walkthrough"
+          ],
+          "signs": [
+            "Gray plastic pipe stamped PB",
+            "Rusty water from galvanized lines",
+            "Pressure that keeps getting worse"
+          ]
+        },
+        {
+          "title": "Partial Repipes",
+          "img": "photo-1620653713380-7a34b773fef8",
+          "desc": "Sometimes only one part of the house has problem pipe, like an addition, a single bathroom, or one long run. We replace just that section and tie it into your good lines.",
+          "included": [
+            "Replacing a section or branch",
+            "Tying new pipe into existing lines",
+            "New valves where needed",
+            "Pressure test of the new section"
+          ],
+          "signs": [
+            "Repeat leaks in one area",
+            "Remodel opening up walls in one room"
+          ]
+        },
+        {
+          "title": "Leak & Pressure Diagnosis",
+          "img": "photo-1623008548370-90e908279959",
+          "desc": "Before recommending a repipe, we find out what's actually wrong. Sometimes it's a single valve or regulator, and sometimes it's the pipe itself.",
+          "included": [
+            "Water pressure testing",
+            "Checking the pressure-reducing valve",
+            "Inspecting visible pipe and fittings",
+            "A clear recommendation on repair or repipe"
+          ],
+          "signs": [
+            "Weak flow at several fixtures",
+            "Pressure drops when two fixtures run",
+            "Frequent small leaks"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-well-pumps",
+      "section": "residential",
+      "card_id": "res-well",
+      "service": "well",
+      "name": "Well Pump Repair & Installation",
+      "meta_title": "Well Pump Repair & Installation in the Midlands, SC | Mr. Plumber, Inc.",
+      "meta_description": "Well pump repair, replacement and new pump installation, plus pressure tank service, for homes across Columbia and the Midlands, SC. We don't drill wells.",
+      "hero_img": "photo-1534641614095-6222aed9bdd6",
+      "hero_credit": [
+        "Fikri Rasyid",
+        "fikrirasyid"
+      ],
+      "summary": "We repair and replace the pump that keeps your well water flowing. We don't drill wells.",
+      "intro_what": "On a well home, the pump and pressure tank supply every faucet in the house. We repair existing well pumps, replace worn ones, and install new pumps. We don't drill wells.",
+      "intro_signs": [
+        "No water or sputtering faucets",
+        "Pressure that rises and falls",
+        "Pump that runs constantly or clicks on and off",
+        "Higher electric bills from the pump"
+      ],
+      "intro_expect": "We test the pump, pressure switch and pressure tank to find which part failed. You'll get a plain recommendation on repair or replacement, and we restore water as quickly as the job allows.",
+      "cards": [
+        {
+          "title": "Well Pump Repair",
+          "img": "photo-1551604283-246c763f2cda",
+          "desc": "Many well problems come from a pressure switch, control box or wiring rather than the pump itself. We test each part and repair the one that failed.",
+          "included": [
+            "Pressure switch testing and replacement",
+            "Control box and electrical checks",
+            "Checking the pump's amperage draw",
+            "System pressure check after repair"
+          ],
+          "signs": [
+            "No water at the tap",
+            "Pump clicking on and off rapidly"
+          ]
+        },
+        {
+          "title": "Pump Replacement",
+          "img": "photo-1773787853927-6e39f9c37a26",
+          "desc": "When a pump is worn out, replacing it restores steady water. We match the new pump to your well and household needs.",
+          "included": [
+            "Pulling the old pump",
+            "Sizing the replacement pump",
+            "Installing and wiring the new pump",
+            "Startup and pressure check"
+          ],
+          "signs": [
+            "Pump runs but no water comes up",
+            "Pump is old and failing repeatedly",
+            "Sand or air in the water"
+          ]
+        },
+        {
+          "title": "New Pump Installation",
+          "img": "photo-1657558665549-bd7d82afed8c",
+          "desc": "For a well that needs a new or upgraded pump, we install the pump, connect it to your plumbing, and set the system pressure.",
+          "included": [
+            "Pump selection for your well",
+            "Installation and wiring",
+            "Connection to the house supply",
+            "Pressure switch setup"
+          ],
+          "signs": [
+            "Upgrading an undersized pump",
+            "Bringing an existing well back into service"
+          ]
+        },
+        {
+          "title": "Pressure Tanks & Low Pressure",
+          "img": "photo-1642552194411-7409e5646a50",
+          "desc": "The pressure tank keeps water pressure steady and protects the pump from running too often. We check it, recharge it, or replace it when it's failed.",
+          "included": [
+            "Pressure tank inspection",
+            "Air charge check and adjustment",
+            "Tank replacement when needed",
+            "System pressure test"
+          ],
+          "signs": [
+            "Pressure that surges and drops",
+            "Pump short-cycling",
+            "Waterlogged or leaking tank"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "residential-water-filtration",
+      "section": "residential",
+      "card_id": "res-water",
+      "service": "water",
+      "name": "Water Filtration & Treatment",
+      "meta_title": "Water Filtration & Softeners in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Whole-house water filtration, water softeners and drinking water systems for homes in Columbia and the Midlands, SC. Tuned to Midlands water.",
+      "hero_img": "photo-1654220691341-be23a137bd0c",
+      "hero_credit": [
+        "Alexey Demidov",
+        "alexeydemidov"
+      ],
+      "summary": "Whole-house filtration, softeners and conditioning tuned to Midlands water.",
+      "intro_what": "Water treatment improves the water coming into your home. Depending on what's in it, that may mean a whole-house filter, a softener for hard water, or a drinking water system at the kitchen sink.",
+      "intro_signs": [
+        "Spots and scale on fixtures and glass",
+        "Chlorine taste or smell",
+        "Dry skin or dull laundry",
+        "Sediment or discoloration in the water"
+      ],
+      "intro_expect": "We look at your water and how you use it, then recommend the system that fits. Installation includes connecting it to your plumbing, setting it up, and showing you any routine upkeep.",
+      "cards": [
+        {
+          "title": "Whole-House Filtration",
+          "img": "photo-1653543362916-f7df09926982",
+          "desc": "A whole-house filter treats water where it enters the home, so every faucet and shower benefits. It can reduce sediment, chlorine and other common issues.",
+          "included": [
+            "System selection for your water",
+            "Installation at the main line",
+            "Bypass valve for servicing",
+            "Startup and filter change guidance"
+          ],
+          "signs": [
+            "Sediment in faucet screens",
+            "Chlorine smell in the shower",
+            "Discolored water"
+          ]
+        },
+        {
+          "title": "Water Softeners",
+          "img": "photo-1685949546169-0d6e2505acae",
+          "desc": "Hard water leaves scale on fixtures, inside water heaters and in your pipes. A softener removes the minerals that cause it.",
+          "included": [
+            "Softener sizing for your household",
+            "Installation and drain connection",
+            "Initial setup and programming",
+            "Upkeep walkthrough"
+          ],
+          "signs": [
+            "White scale on shower heads and glass",
+            "Soap that won't lather",
+            "Spots on dishes"
+          ]
+        },
+        {
+          "title": "Drinking Water Systems",
+          "img": "photo-1564644411757-a723deba07a8",
+          "desc": "A system at the kitchen sink gives you cleaner water for drinking and cooking. It's a simple way to improve the water you use most.",
+          "included": [
+            "Under-sink system installation",
+            "Dedicated drinking water faucet",
+            "Connection to your supply line",
+            "Filter change guidance"
+          ],
+          "signs": [
+            "Buying bottled water for taste",
+            "Unpleasant taste or odor at the tap"
+          ]
+        },
+        {
+          "title": "Water Quality Check",
+          "img": "photo-1669139470813-827cbcf54b20",
+          "desc": "The right treatment depends on what's in your water. We look at what you're seeing at the tap and recommend a system based on it.",
+          "included": [
+            "Review of taste, odor and staining issues",
+            "Questions about your water source and usage",
+            "System recommendations",
+            "Clear explanation of options"
+          ],
+          "signs": [
+            "Not sure what kind of treatment you need",
+            "Moving into a new home or onto well water"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-emergency-backflow",
+      "section": "commercial",
+      "card_id": "com-emergency",
+      "service": "commercial",
+      "name": "Commercial Emergency & Backflow Services",
+      "meta_title": "Commercial Emergency Plumbing & Backflow Testing in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Emergency plumbing with priority dispatch for account holders, plus backflow testing, repair and installation for businesses across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1650551182991-b07558247564",
+      "hero_credit": [
+        "Immo Wegmann",
+        "tinkerman"
+      ],
+      "summary": "Account holders move to the front of the line, and we keep your backflow assemblies tested and current.",
+      "intro_what": "When a business has a plumbing emergency, every hour costs money. Account holders get priority dispatch, and we also test and repair the backflow assemblies that keep your water supply protected.",
+      "intro_signs": [
+        "A burst line, flooding or a sewage backup on site",
+        "No water to restrooms or the kitchen",
+        "Backflow test due for your building",
+        "A failed or leaking backflow assembly"
+      ],
+      "intro_expect": "Call 803-600-4357 and we'll get a tech moving. On site, we stop the damage, make the repair and send updates from the field while the work is underway. Backflow work is scheduled around your hours where we can.",
+      "cards": [
+        {
+          "title": "Priority Emergency Dispatch",
+          "img": "photo-1690337083718-68a120f3531a",
+          "desc": "Account holders move to the front of the line when something breaks. We get a tech on the way and keep your contact updated until the problem is under control.",
+          "included": [
+            "Priority scheduling for account holders",
+            "Emergency line for urgent calls",
+            "Updates from the field",
+            "Repair and documentation for your records"
+          ],
+          "signs": [
+            "Water where it shouldn't be",
+            "Restrooms or kitchen out of service",
+            "Sewage backing up into the building"
+          ]
+        },
+        {
+          "title": "Backflow Testing",
+          "img": "photo-1553969914-e109f9d0e171",
+          "desc": "Backflow assemblies keep used or contaminated water from flowing back into the clean supply. We test them and give you paperwork for your records.",
+          "included": [
+            "Testing of backflow assemblies",
+            "Paperwork for your records",
+            "Notes on any parts that need attention",
+            "Scheduling around your hours where we can"
+          ],
+          "signs": [
+            "Annual test coming due",
+            "Notice from your water provider",
+            "New assembly that needs an initial test"
+          ]
+        },
+        {
+          "title": "Backflow Repair & Installation",
+          "img": "photo-1698031610493-c19fa20dfeab",
+          "desc": "When an assembly fails its test or starts leaking, we repair it or replace it. We also install new assemblies for new service or added equipment.",
+          "included": [
+            "Repairing failed assemblies",
+            "Replacing worn or leaking units",
+            "New assembly installation",
+            "Retest after repair"
+          ],
+          "signs": [
+            "Failed backflow test",
+            "Water leaking from the assembly",
+            "Adding equipment that requires protection"
+          ]
+        },
+        {
+          "title": "Shutoff & Leak Control",
+          "img": "photo-1530124566582-a618bc2615dc",
+          "desc": "The first step in any emergency is stopping the water. We isolate the problem so the rest of the building can keep running while we repair it.",
+          "included": [
+            "Locating and operating shutoff valves",
+            "Isolating the affected area",
+            "Temporary measures to limit damage",
+            "Permanent repair"
+          ],
+          "signs": [
+            "Active leak you can't stop",
+            "Shutoff valves that won't close fully"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-drain-cleaning",
+      "section": "commercial",
+      "card_id": "com-drain",
+      "service": "commercial",
+      "name": "Commercial Drain Cleaning & Jetting",
+      "meta_title": "Commercial Drain Cleaning & Hydro Jetting in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Restaurant grease line jetting, floor drains, main sewer lines and camera inspection for businesses across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1745265796934-c34e78554872",
+      "hero_credit": [
+        "Ilya Semenov",
+        "si1og"
+      ],
+      "summary": "We clear grease lines, floor drains and mains, scheduled around your service hours where we can.",
+      "intro_what": "Commercial drains carry far more grease, food waste and traffic than a home's. We clear them with cable machines and high-pressure jetting, and use cameras to see what's causing repeat problems.",
+      "intro_signs": [
+        "Floor drains backing up during service",
+        "Slow prep, dish or mop sinks",
+        "Odors from drains in the kitchen or restrooms",
+        "The same line clogging again and again"
+      ],
+      "intro_expect": "We work out which lines are affected and when we can get to them with the least disruption. We clear the line, confirm it flows, and tell you what we found so you can plan ahead.",
+      "cards": [
+        {
+          "title": "Restaurant & Grease Line Jetting",
+          "img": "photo-1741394556992-b2a082d157d5",
+          "desc": "Grease hardens on pipe walls until the line chokes off. High-pressure jetting scours the pipe clean and helps keep a busy kitchen open.",
+          "included": [
+            "High-pressure jetting of kitchen lines",
+            "Clearing prep, dish and mop sink branches",
+            "Flushing grease and debris downstream",
+            "Flow test when finished"
+          ],
+          "signs": [
+            "Kitchen drains slowing during service",
+            "Grease odor from drains",
+            "Backups after heavy prep days"
+          ]
+        },
+        {
+          "title": "Floor Drains",
+          "img": "photo-1763100351670-756f71d57c9f",
+          "desc": "Floor drains in kitchens, restrooms and mechanical rooms collect debris until they back up. We clear the drain and the line behind it.",
+          "included": [
+            "Clearing floor drain lines",
+            "Cleaning drain bodies and strainers",
+            "Checking trap primers where present",
+            "Flow test"
+          ],
+          "signs": [
+            "Standing water around floor drains",
+            "Sewer smell from a dry drain",
+            "Water coming up during washdown"
+          ]
+        },
+        {
+          "title": "Main Sewer Lines",
+          "img": "photo-1546715999-10641191307a",
+          "desc": "When the building's main line backs up, every fixture is affected. We clear the main from the cleanout and get the whole building draining again.",
+          "included": [
+            "Locating and opening cleanouts",
+            "Cabling or jetting the main line",
+            "Clearing roots and heavy buildup",
+            "Checking fixtures throughout the building"
+          ],
+          "signs": [
+            "Multiple fixtures backing up at once",
+            "Water rising in floor drains",
+            "Gurgling throughout the building"
+          ]
+        },
+        {
+          "title": "Camera Inspection",
+          "img": "photo-1618840626133-54463084a141",
+          "desc": "A camera inspection shows what's inside the line, including grease, roots, sags and breaks. It turns a repeat problem into a clear plan.",
+          "included": [
+            "Video inspection of drain and sewer lines",
+            "Locating problem spots and depth",
+            "Findings explained in plain language",
+            "Recommendations for repair or maintenance"
+          ],
+          "signs": [
+            "Clogs that keep coming back",
+            "Planning a renovation or tenant change",
+            "Suspected broken or sagging pipe"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-water-heaters",
+      "section": "commercial",
+      "card_id": "com-wh",
+      "service": "commercial",
+      "name": "Commercial Water Heaters",
+      "meta_title": "Commercial Water Heater Repair & Replacement in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Commercial tank and tankless water heaters, repair and replacement, and scheduled maintenance for restaurants, motels and buildings across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1676210134190-3f2c0d5cf58d",
+      "hero_credit": [
+        "Timur Shakerzianov",
+        "shaker_jpg"
+      ],
+      "summary": "We repair, replace and right-size the hot water equipment your business depends on.",
+      "intro_what": "One shared hot water system can feed a kitchen, a row of guest rooms or every restroom in a building. We repair, replace and maintain commercial tank and tankless systems so a single failure doesn't shut you down.",
+      "intro_signs": [
+        "Hot water running out during busy hours",
+        "Guests or staff reporting lukewarm water",
+        "Leaks or rust around the unit",
+        "Equipment that needs frequent repairs"
+      ],
+      "intro_expect": "We assess the system, how much hot water you use and when, and what's causing the problem. Then we repair it or recommend a replacement sized to your demand, scheduled to keep downtime short.",
+      "cards": [
+        {
+          "title": "Commercial Tank Units",
+          "img": "photo-1787938470676-28af741f8ba9",
+          "desc": "Commercial tank water heaters store a large volume of hot water for heavy demand. We repair, replace and size them to match how your business uses water.",
+          "included": [
+            "Sizing based on your demand",
+            "Installation and code-compliant connections",
+            "Venting and gas or electric hookup",
+            "Startup and temperature check"
+          ],
+          "signs": [
+            "Running out of hot water at peak times",
+            "Tank is leaking or rusting"
+          ]
+        },
+        {
+          "title": "Commercial Tankless Systems",
+          "img": "photo-1773517458906-b2c7c94ad5b2",
+          "desc": "Tankless systems heat water on demand and can be linked together for larger loads. They save floor space and deliver a steady supply.",
+          "included": [
+            "System design for your demand",
+            "Installation of single or linked units",
+            "Gas, venting and water connections",
+            "Startup and flow testing"
+          ],
+          "signs": [
+            "Need more hot water capacity",
+            "Limited space for large tanks"
+          ]
+        },
+        {
+          "title": "Repair & Replacement",
+          "img": "photo-1773517459133-be9768f6cac9",
+          "desc": "When hot water fails, we find the cause and repair it when that makes sense. If replacement is the better call, we explain why and keep downtime as short as we can.",
+          "included": [
+            "Full diagnostic of the system",
+            "Parts repair and replacement",
+            "Recirculation line checks",
+            "Clear repair or replace recommendation"
+          ],
+          "signs": [
+            "No hot water or lukewarm water",
+            "Error codes or frequent shutdowns",
+            "Leaks at the unit or fittings"
+          ]
+        },
+        {
+          "title": "Scheduled Maintenance",
+          "img": "photo-1581166397057-235af2b3c6dd",
+          "desc": "Regular service helps commercial water heaters last longer and run efficiently. We flush sediment, check safety parts and catch small problems early.",
+          "included": [
+            "Flushing sediment and scale",
+            "Testing relief valves and safety controls",
+            "Inspecting venting and connections",
+            "Service notes for your records"
+          ],
+          "signs": [
+            "No service history on file",
+            "Rumbling or reduced output",
+            "Hard water in the area"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-leak-detection",
+      "section": "commercial",
+      "card_id": "com-leak",
+      "service": "commercial",
+      "name": "Leak Detection & Water Line Repair",
+      "meta_title": "Commercial Leak Detection & Water Line Repair in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Hidden leak detection, water service line repair, riser and main repairs for commercial buildings across Columbia and the Midlands, SC, with documentation for your records.",
+      "hero_img": "photo-1639600993675-2281b2c939f0",
+      "hero_credit": [
+        "Sebastian Morelli-Peyton",
+        "sebastianmorellipeyton"
+      ],
+      "summary": "We find hidden leaks in risers, mains and supply lines and repair the water service behind them.",
+      "intro_what": "Leaks in a commercial building can hide inside walls, under slabs or along buried service lines. We locate them, repair the line, and hand your building engineer documentation they can file.",
+      "intro_signs": [
+        "A water bill that spikes without explanation",
+        "Damp walls, ceilings or floors",
+        "Low pressure on upper floors",
+        "Water pooling outside near the service line"
+      ],
+      "intro_expect": "We confirm the leak, locate it with electronic equipment, and explain what the repair involves before anything is opened. Work is scheduled around your occupancy where we can.",
+      "cards": [
+        {
+          "title": "Hidden Leak Detection",
+          "img": "photo-1663625318125-ce6308a46bf6",
+          "desc": "We use electronic listening equipment and moisture testing to find leaks inside walls, ceilings and slabs. That keeps openings small and repairs targeted.",
+          "included": [
+            "Meter and pressure testing",
+            "Acoustic leak location",
+            "Marking the leak location",
+            "Documentation of findings"
+          ],
+          "signs": [
+            "Unexplained increase in water use",
+            "Damp spots or stains on walls and ceilings"
+          ]
+        },
+        {
+          "title": "Water Service Line Repair",
+          "img": "photo-1747999703278-ef065c39cb18",
+          "desc": "The service line brings water from the street into your building. We repair breaks and replace failing sections to restore steady supply.",
+          "included": [
+            "Locating the break",
+            "Excavation for access where needed",
+            "Pipe repair or section replacement",
+            "Pressure test and restoration"
+          ],
+          "signs": [
+            "Wet or sunken ground near the line",
+            "Low pressure throughout the building"
+          ]
+        },
+        {
+          "title": "Risers & Mains",
+          "img": "photo-1789303390930-06b04ffdba51",
+          "desc": "Risers and mains feed every floor and fixture in the building. We repair leaks and worn sections so the whole system holds pressure.",
+          "included": [
+            "Inspection of risers and mains",
+            "Leak repair and section replacement",
+            "Valve replacement where needed",
+            "Pressure test"
+          ],
+          "signs": [
+            "Leaks in mechanical rooms or chases",
+            "Pressure drops on upper floors"
+          ]
+        },
+        {
+          "title": "Usage Spike Investigation",
+          "img": "photo-1622801179563-94f5aa9a1c6d",
+          "desc": "A sudden jump in water use is often the first sign of a hidden leak. We check the meter, isolate zones and track down where the water is going.",
+          "included": [
+            "Meter testing",
+            "Isolating building zones",
+            "Checking fixtures and equipment for leaks",
+            "Summary of what we found"
+          ],
+          "signs": [
+            "Water bill much higher than usual",
+            "Meter moving when the building is closed"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-sewer-services",
+      "section": "commercial",
+      "card_id": "com-sewer",
+      "service": "commercial",
+      "name": "Commercial Sewer Line Services",
+      "meta_title": "Commercial Sewer Line Repair & Replacement in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Camera inspection, spot repairs and full sewer line replacement for the sewer and drain lines commercial buildings tie into across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1772600110243-f4e1349259b6",
+      "hero_credit": [
+        "David Klein",
+        "diklein"
+      ],
+      "summary": "Camera inspection, spot repairs and full line replacement for the lines your whole building ties into.",
+      "intro_what": "Every drain in your building flows into the building sewer and out to the city main. When that line cracks, sags or fills with roots, the whole property feels it. We inspect, repair and replace it.",
+      "intro_signs": [
+        "Repeated backups across the building",
+        "Sewer odor inside or outside",
+        "Sinking pavement or wet spots near the line",
+        "Slow drains on the lowest level"
+      ],
+      "intro_expect": "We start with a camera inspection to locate the problem and see the condition of the line. Then we lay out the repair options and schedule the work to keep your business running where we can.",
+      "cards": [
+        {
+          "title": "Sewer Camera Inspection",
+          "img": "photo-1722411487131-23bb3ac91df3",
+          "desc": "A camera inspection shows the full condition of the building sewer, including roots, cracks, offsets and sags. It's the basis for every repair decision.",
+          "included": [
+            "Video inspection of the sewer line",
+            "Locating problem spots and depth",
+            "Findings explained in plain language",
+            "Repair recommendations"
+          ],
+          "signs": [
+            "Repeat backups",
+            "Planning a property purchase or renovation"
+          ]
+        },
+        {
+          "title": "Spot Repairs",
+          "img": "photo-1593583810872-ddee4d6bd55a",
+          "desc": "When the damage is in one section, we repair just that section. It limits disruption to your parking lot, landscaping and operations.",
+          "included": [
+            "Pinpointing the damaged section",
+            "Excavating only the repair area",
+            "Replacing the broken pipe",
+            "Backfill and flow test"
+          ],
+          "signs": [
+            "Single break or root intrusion on camera",
+            "Localized wet or sunken area"
+          ]
+        },
+        {
+          "title": "Line Replacement",
+          "img": "photo-1530219451035-fb499f9fc714",
+          "desc": "When a sewer line is failing along its length, replacement is the lasting fix. We install new pipe and cleanouts and coordinate the work around your hours where we can.",
+          "included": [
+            "Removal of the failed line",
+            "New sewer pipe installed to code",
+            "New cleanouts where needed",
+            "Flow test and site cleanup"
+          ],
+          "signs": [
+            "Collapsed or crushed pipe",
+            "Multiple breaks along the line",
+            "Old clay or cast iron failing"
+          ]
+        },
+        {
+          "title": "Building Drains & Stacks",
+          "img": "photo-1742858046408-45953cab801e",
+          "desc": "Inside the building, drain lines and vertical stacks carry waste from every floor down to the sewer. We repair leaking, cracked and corroded sections.",
+          "included": [
+            "Inspection of drain lines and stacks",
+            "Repair or replacement of failed sections",
+            "Cleanout access where needed",
+            "Leak and flow check"
+          ],
+          "signs": [
+            "Leaks from overhead drain lines",
+            "Sewer odor in a chase or ceiling",
+            "Corroded cast iron drain pipe"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-gas-lines",
+      "section": "commercial",
+      "card_id": "com-gas",
+      "service": "commercial",
+      "name": "Gas Line Services & Testing",
+      "meta_title": "Commercial Gas Line Service & Testing in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Gas line installation, equipment hookups, leak repair and pressure testing for restaurant kitchens, water heaters and mechanical rooms across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1538474705339-e87de81450e8",
+      "hero_credit": [
+        "Samuel Sianipar",
+        "samthewam24"
+      ],
+      "summary": "Installation, leak repair and pressure testing for the gas lines that feed kitchens, water heaters and mechanical rooms.",
+      "intro_what": "Commercial gas lines feed cooking lines, water heaters and mechanical equipment. We install, repair and test them for natural gas and propane, all done to code.",
+      "intro_signs": [
+        "Gas smell near equipment or the meter",
+        "Adding or moving kitchen equipment",
+        "New water heater or mechanical equipment",
+        "Inspection or pressure test required"
+      ],
+      "intro_expect": "If you smell gas, clear the area first and call your gas utility, then call us for the repair. For planned work, we review your equipment and layout, install to code, and pressure test before service is restored.",
+      "cards": [
+        {
+          "title": "Kitchen Gas Lines",
+          "img": "photo-1607324772107-8ad6740ca195",
+          "desc": "Restaurant cooking lines need gas piping sized for every burner, fryer and oven running at once. We install and repair lines that keep the kitchen cooking.",
+          "included": [
+            "Piping sized for your cooking line",
+            "Shutoff valves at each appliance",
+            "Flexible connector installation",
+            "Leak test"
+          ],
+          "signs": [
+            "Weak flames when several burners run",
+            "Adding new cooking equipment"
+          ]
+        },
+        {
+          "title": "Equipment Hookups",
+          "img": "photo-1789568682937-5df65668d8d3",
+          "desc": "New fryers, ranges, water heaters and mechanical equipment all need proper gas connections. We hook up new equipment so it's ready to run.",
+          "included": [
+            "Connection of new gas equipment",
+            "Valve and connector installation",
+            "Leak testing at each connection",
+            "Startup check with your equipment"
+          ],
+          "signs": [
+            "New equipment delivered",
+            "Moving or reconfiguring a kitchen line"
+          ]
+        },
+        {
+          "title": "Leak Repair & Pressure Testing",
+          "img": "photo-1738964859995-0978e6ae79f3",
+          "desc": "We find and repair gas leaks, then pressure test the system to confirm it holds tight. Testing is often required after new work or before service is restored.",
+          "included": [
+            "Locating the leak",
+            "Repairing fittings and pipe",
+            "Pressure testing the system",
+            "Results explained when we finish"
+          ],
+          "signs": [
+            "Gas odor near equipment or piping",
+            "New gas work that needs testing",
+            "Service being restored after a shutoff"
+          ]
+        },
+        {
+          "title": "Meters & Service Lines",
+          "img": "photo-1622801185864-874be8248594",
+          "desc": "From the meter or tank to the building, the service line has to carry enough gas for everything inside. We repair and upgrade service piping when demand grows.",
+          "included": [
+            "Service line inspection",
+            "Repair of damaged sections",
+            "Upgrades for added equipment",
+            "Leak and pressure check"
+          ],
+          "signs": [
+            "Adding significant new gas equipment",
+            "Damaged or corroded exterior piping"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-repiping",
+      "section": "commercial",
+      "card_id": "com-repipe",
+      "service": "commercial",
+      "name": "Commercial Repiping & Upgrades",
+      "meta_title": "Commercial Repiping & Plumbing Upgrades in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Replace aging supply lines, risers and mains, or upgrade plumbing for tenant fit-outs, scheduled around your occupancy, across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1785682117437-91f081385f6b",
+      "hero_credit": [
+        "Valentin Lacoste",
+        "valentinlacoste"
+      ],
+      "summary": "Replace aging supply lines and risers before they fail, or upgrade for a tenant fit-out.",
+      "intro_what": "Commercial repiping replaces aging supply lines, risers and mains before they start failing one leak at a time. We also upgrade plumbing when a space changes use or a new tenant moves in.",
+      "intro_signs": [
+        "Frequent leaks in the same building",
+        "Rusty or discolored water",
+        "Low pressure on certain floors or wings",
+        "A tenant fit-out or change of use"
+      ],
+      "intro_expect": "We review the building, the pipe and how the space is used, then plan the work in phases to keep water on for as much of the building as possible. Work is scheduled around your occupancy.",
+      "cards": [
+        {
+          "title": "Aging Supply Line Replacement",
+          "img": "photo-1529269421632-e9253d14d3a9",
+          "desc": "Older supply lines corrode and leak more often as they age. Replacing them ends the cycle of repeat repairs and restores good pressure.",
+          "included": [
+            "Assessment of existing supply lines",
+            "Replacement with new pipe",
+            "New valves for zone shutoffs",
+            "Pressure testing"
+          ],
+          "signs": [
+            "Repeat leaks",
+            "Discolored water",
+            "Pressure dropping over time"
+          ]
+        },
+        {
+          "title": "Riser & Main Upgrades",
+          "img": "photo-1637345158353-40607a208d46",
+          "desc": "Risers and mains carry water to every floor. Upgrading them improves pressure and reliability for the whole building.",
+          "included": [
+            "Riser and main replacement",
+            "Isolation valves on each floor or zone",
+            "Phased work to limit shutoffs",
+            "System pressure test"
+          ],
+          "signs": [
+            "Leaks in mechanical rooms",
+            "Weak pressure on upper floors"
+          ]
+        },
+        {
+          "title": "Tenant Fit-Outs",
+          "img": "photo-1782353921981-bb73a53a7482",
+          "desc": "A new tenant often needs restrooms, break rooms or equipment that the old layout didn't have. We plumb the space to match how it will be used.",
+          "included": [
+            "Layout review with your team",
+            "New supply and drain lines",
+            "Fixture and equipment connections",
+            "Testing before the tenant moves in"
+          ],
+          "signs": [
+            "New lease or change of use",
+            "Renovating a suite"
+          ]
+        },
+        {
+          "title": "Phased Repiping",
+          "img": "photo-1700885349896-c7f847dcf39f",
+          "desc": "We plan repiping in sections so most of the building stays in service while each zone is replaced. Shutoffs are scheduled with you ahead of time.",
+          "included": [
+            "Phase plan agreed with you",
+            "Scheduled shutoffs by zone",
+            "Replacement section by section",
+            "Testing as each phase is finished"
+          ],
+          "signs": [
+            "Occupied building that can't shut down",
+            "Large repipe planned over time"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-restroom-kitchen",
+      "section": "commercial",
+      "card_id": "com-fixtures",
+      "service": "commercial",
+      "name": "Repairs & Installations",
+      "meta_title": "Commercial Restroom & Kitchen Plumbing in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Commercial fixture installs, restroom plumbing, guest room fixtures, back-of-house sinks and kitchen plumbing for businesses across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1631048499052-e6d9f305d2c0",
+      "hero_credit": [
+        "Point3D Commercial Imaging Ltd.",
+        "3dottawa"
+      ],
+      "summary": "The fixtures your customers, guests and tenants actually touch, from a single flush valve to a full refit.",
+      "intro_what": "Restrooms, guest rooms, break rooms and kitchens are where people notice plumbing. We repair and install the fixtures in those spaces and the piping behind them.",
+      "intro_signs": [
+        "Toilets or urinals that run or won't flush",
+        "Leaking faucets or broken sensors",
+        "Fixtures that look worn or outdated",
+        "A kitchen or restroom refit in the works"
+      ],
+      "intro_expect": "We take care of single repairs on a service call and plan larger refits with you. Work is scheduled around your hours, and we leave restrooms and kitchens clean and ready to use.",
+      "cards": [
+        {
+          "title": "Fixture Installs",
+          "img": "photo-1782749878073-535d5e99fece",
+          "desc": "New sinks, faucets, toilets and urinals keep a building looking cared for. We install commercial fixtures and the valves and supply lines that go with them.",
+          "included": [
+            "Sink, faucet, toilet and urinal installation",
+            "New shutoff valves and supply lines",
+            "Drain and trap connections",
+            "Leak and function check"
+          ],
+          "signs": [
+            "Worn or broken fixtures",
+            "Updating restrooms or break rooms"
+          ]
+        },
+        {
+          "title": "Restroom Plumbing",
+          "img": "photo-1759497904878-82c9bb21b2f6",
+          "desc": "Customer and multi-floor restrooms take heavy use. We repair flush valves, sensors and drains so restrooms stay open and working.",
+          "included": [
+            "Flush valve and sensor repair",
+            "Clearing restroom drains",
+            "Replacing failed parts on toilets and urinals",
+            "Leak checks on every fixture we service"
+          ],
+          "signs": [
+            "Toilets or urinals that run or won't flush",
+            "Sensor faucets that don't respond",
+            "Restroom closed for repairs"
+          ]
+        },
+        {
+          "title": "Guest Room Fixtures",
+          "img": "photo-1664227430687-9299c593e3da",
+          "desc": "Motels and hotels have dozens of identical fixtures, and small problems repeat down the hall. We handle in-room repairs room by room, scheduled around your occupancy.",
+          "included": [
+            "Tub and shower valve repair",
+            "Toilet and sink repairs",
+            "Fixture replacement",
+            "Work scheduled around occupancy"
+          ],
+          "signs": [
+            "Guest complaints about water temperature or drips",
+            "The same repair needed in several rooms"
+          ]
+        },
+        {
+          "title": "Back-of-House & Break Room Sinks",
+          "img": "photo-1790156591172-ea5f8427bbbc",
+          "desc": "Break rooms and back-of-house areas need sinks that hold up to daily use. We repair, replace and install them along with the drains behind them.",
+          "included": [
+            "Sink and faucet repair or replacement",
+            "Drain and trap service",
+            "New sink installation",
+            "Leak check"
+          ],
+          "signs": [
+            "Leaking or dripping sinks",
+            "Slow drains in staff areas"
+          ]
+        },
+        {
+          "title": "Kitchens & Fellowship Halls",
+          "img": "photo-1790156591731-09dbf6aee75a",
+          "desc": "Commercial and church kitchens need prep sinks, hand sinks and connections that work every time they're used. We plumb and maintain them.",
+          "included": [
+            "Prep and hand sink installation",
+            "Dishwasher and equipment water connections",
+            "Drain line service",
+            "Fixture repairs"
+          ],
+          "signs": [
+            "Kitchen refit or new equipment",
+            "Sinks that leak or drain slowly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-water-treatment",
+      "section": "commercial",
+      "card_id": "com-water",
+      "service": "commercial",
+      "name": "Water Treatment & Filtration",
+      "meta_title": "Commercial Water Treatment & Filtration in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Commercial filtration, softening and conditioning sized for business demand and tuned to Midlands water, across Columbia and the Midlands, SC.",
+      "hero_img": "photo-1738598665896-434104b5962d",
+      "hero_credit": [
+        "Being Organic in EU",
+        "beingorganicineu"
+      ],
+      "summary": "Filtration, softening and conditioning sized for commercial demand and tuned to Midlands water.",
+      "intro_what": "Water treatment protects your equipment and improves the water your customers and staff use. We size filtration and softening systems for commercial demand.",
+      "intro_signs": [
+        "Scale on equipment, fixtures or water heaters",
+        "Spotty dishes or glassware",
+        "Taste or odor complaints",
+        "Frequent equipment service from mineral buildup"
+      ],
+      "intro_expect": "We look at your water, your equipment and how much you use, then recommend a system that fits. Installation includes bypass valves for servicing and guidance on routine upkeep.",
+      "cards": [
+        {
+          "title": "Filtration Systems",
+          "img": "photo-1742660861454-22f55faf113a",
+          "desc": "Commercial filtration reduces sediment, chlorine and other common issues at the point where water enters the building or a specific piece of equipment.",
+          "included": [
+            "System sizing for your demand",
+            "Installation with bypass valves",
+            "Startup and flow check",
+            "Filter change guidance"
+          ],
+          "signs": [
+            "Sediment or discoloration",
+            "Taste or odor complaints"
+          ]
+        },
+        {
+          "title": "Water Softening",
+          "img": "photo-1615749721143-3a38368d3d05",
+          "desc": "Hard water builds scale in water heaters, dish machines and fixtures. Softening protects that equipment and cuts down on spotting.",
+          "included": [
+            "Softener sizing for commercial use",
+            "Installation and drain connection",
+            "Setup and programming",
+            "Upkeep walkthrough"
+          ],
+          "signs": [
+            "Scale on equipment and fixtures",
+            "Spotty dishes and glassware"
+          ]
+        },
+        {
+          "title": "Drinking Water Stations",
+          "img": "photo-1560192776-60a3bab7190d",
+          "desc": "Offices, schools and churches rely on drinking fountains and filling stations. We install and service them, including the filters that feed them.",
+          "included": [
+            "Drinking fountain and filling station installation",
+            "Water line connections",
+            "Filter installation",
+            "Repair of existing units"
+          ],
+          "signs": [
+            "Old or failing fountains",
+            "Adding a filling station"
+          ]
+        },
+        {
+          "title": "Ice & Beverage Filtration",
+          "img": "photo-1743333601396-9fc5cf8ec344",
+          "desc": "Ice machines and beverage equipment are sensitive to water quality. Dedicated filtration helps protect the equipment and keeps drinks tasting right.",
+          "included": [
+            "Filter installation for ice and beverage lines",
+            "Water line connections to equipment",
+            "Filter change guidance",
+            "Leak check"
+          ],
+          "signs": [
+            "Cloudy ice or off-tasting drinks",
+            "Scale in ice machines"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commercial-maintenance-contracts",
+      "section": "commercial",
+      "card_id": "com-maintenance",
+      "service": "commercial",
+      "name": "Monthly Maintenance Contracts",
+      "meta_title": "Commercial Plumbing Maintenance Contracts in Columbia, SC | Mr. Plumber, Inc.",
+      "meta_description": "Monthly plumbing maintenance contracts with custom plans and priority service for restaurants, motels, churches, schools and property managers across the Midlands, SC.",
+      "hero_img": "photo-1761558794306-466448dab4bc",
+      "hero_credit": [
+        "Phil Hearing",
+        "philhearing"
+      ],
+      "summary": "Custom plans and priority service that prevent problems before they start.",
+      "intro_what": "A monthly maintenance contract puts your building on a regular service schedule. We build a custom plan around your property and catch small problems before they turn into closures.",
+      "intro_signs": [
+        "The same problems keep coming back",
+        "Plumbing failures are disrupting your business",
+        "You manage several properties",
+        "You'd rather plan service than react to it"
+      ],
+      "intro_expect": "We start with a walkthrough of your property and talk about what matters most to your business. Then we put together a plan and schedule that fits your hours, and keep notes on every visit.",
+      "cards": [
+        {
+          "title": "Custom Plans",
+          "img": "photo-1743385779431-45d26d9775b1",
+          "desc": "Every property is different. We build a plan around your building, your equipment and your busiest times instead of a one-size-fits-all checklist.",
+          "included": [
+            "Walkthrough of your property",
+            "Plan built around your equipment and hours",
+            "Visit schedule that fits your business",
+            "Plan reviewed as your needs change"
+          ],
+          "signs": [
+            "No regular plumbing maintenance in place",
+            "Different needs across several buildings"
+          ]
+        },
+        {
+          "title": "Priority Service",
+          "img": "photo-1613206485381-b028e578e791",
+          "desc": "Contract and account holders move to the front of the line when something breaks between visits.",
+          "included": [
+            "Priority scheduling",
+            "Emergency line for urgent calls",
+            "Updates from the field",
+            "Third-party billing available"
+          ],
+          "signs": [
+            "Downtime is costly for your business",
+            "You need a dependable plumber on call"
+          ]
+        },
+        {
+          "title": "Scheduled Inspections",
+          "img": "photo-1754548930574-6a995e5eb5a7",
+          "desc": "Regular inspections catch worn valves, slow leaks and early drain problems. You get notes after each visit so you know where things stand.",
+          "included": [
+            "Fixture and valve checks",
+            "Water heater and equipment checks",
+            "Leak checks in restrooms and mechanical areas",
+            "Visit notes for your records"
+          ],
+          "signs": [
+            "Problems found only after they fail",
+            "Older plumbing that needs watching"
+          ]
+        },
+        {
+          "title": "Preventive Drain Care",
+          "img": "photo-1589109807644-924edf14ee09",
+          "desc": "Kitchen and floor drains build up grease and debris over time. Scheduled cleaning keeps lines flowing and avoids backups during service.",
+          "included": [
+            "Scheduled drain cleaning or jetting",
+            "Floor drain and grease line care",
+            "Camera checks on problem lines",
+            "Notes on line condition"
+          ],
+          "signs": [
+            "Recurring kitchen or floor drain backups",
+            "Heavy grease from food service"
+          ]
+        }
+      ]
+    }
+  ]
+}

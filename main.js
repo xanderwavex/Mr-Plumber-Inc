@@ -109,6 +109,29 @@ const FORM_ENDPOINT = '';
     });
   });
 
+  /* ── quote links: ?service=drain&need=Hydro+Jetting#contact
+     pre-selects the matching service and notes the specific need ── */
+  const params = new URLSearchParams(window.location.search);
+  const serviceKey = params.get('service');
+  const serviceSelect = $('f-service');
+  if (serviceKey && serviceSelect) {
+    const match = serviceSelect.querySelector('option[data-key="' + CSS.escape(serviceKey) + '"]');
+    if (match) match.selected = true;
+  }
+  const need = (params.get('need') || '').trim().slice(0, 120);
+  const msgBox = $('f-msg');
+  if (need && msgBox && !msgBox.value) {
+    msgBox.value = 'I’m interested in: ' + need + '\n';
+  }
+
+  /* arriving from another page on a #hash (every Get a Quote button):
+     the browser's own jump can land before images settle, so land it
+     again once the page has loaded. */
+  const hashTarget = window.location.hash.length > 1 && document.getElementById(window.location.hash.slice(1));
+  if (hashTarget) {
+    window.addEventListener('load', () => hashTarget.scrollIntoView({ behavior: 'auto', block: 'start' }), { once: true });
+  }
+
   /* ── forms ─────────────────────────────────────────────────────
      Both the residential quote form and the commercial account form
      run through here. Neither delivers anywhere until FORM_ENDPOINT

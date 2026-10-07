@@ -194,7 +194,7 @@ li{list-style:none}
 .hero__bg{position:absolute;inset:-4%;z-index:-2}
 .hero__bg img{
   width:100%;height:100%;object-fit:cover;object-position:50% 62%;
-  filter:blur(3.5px) saturate(108%);
+  filter:saturate(106%);
   transform:scale(1.06);
   animation:heroDrift 26s ease-in-out infinite alternate;
 }
@@ -715,7 +715,7 @@ li{list-style:none}
   .sec,.sec--tankless,.sec--rail,.sec--contact,.sec--reviews{padding-block:68px}
   .wrap{padding-inline:18px}
   .hero{min-height:auto;padding:calc(var(--nav-h) + 74px) 0 64px}
-  .hero__bg img{filter:blur(3px) saturate(108%)}
+  .hero__bg img{filter:saturate(106%)}
   .hero__cta{flex-direction:column;align-items:stretch}
   .hero__cta .btn{width:100%}
   .creds{gap:8px 18px;margin-top:30px}
@@ -1029,7 +1029,7 @@ li{list-style:none}
 .subhero--photo .subhero__bg{position:absolute;inset:0;z-index:-3}
 .subhero--photo .subhero__bg img{
   width:100%;height:100%;object-fit:cover;object-position:50% 56%;
-  filter:blur(2px) saturate(104%);transform:scale(1.05);
+  filter:saturate(104%);transform:scale(1.03);
 }
 .subhero--photo .subhero__scrim{
   position:absolute;inset:0;z-index:-2;
@@ -1355,20 +1355,15 @@ li{list-style:none}
   .ind__text{flex:1 1 60%}
 }
 
-/* ── Mr. Plumber peeking beside cards (landing, emergency, financing) ─
+/* ── Mr. Plumber peeking beside cards (emergency, financing) ─
    Same artwork and cut-line maths as the contact forms. The host
    reserves room on its right so he never overlaps the card's text. */
-.peek-host--svc{--peek-w:150px;top:0}
-.peek-host--svc .peek{top:26px}
 .peek-host--sos{--peek-w:150px}
 .peek-host--sos .peek{top:12px}
 .peek-host--fin{--peek-w:150px}
 .peek-host--fin .peek{top:34px}
 
-/* landing: the stack of three cards narrows evenly so it stays centred */
-.svc-stack{--peek-vis:calc(150px * .949)}
 @media (min-width:768px){
-  .svc-stack{max-width:min(940px,calc(100% - 2 * var(--peek-vis)))}
   .peek-host--sos,.peek-host--fin{margin-right:calc(var(--peek-w) * .949 - var(--peek-out,0px))}
 }
 @media (min-width:1081px){
@@ -1377,17 +1372,12 @@ li{list-style:none}
 /* phones: a smaller Mr. Plumber, tucked into a slim gutter on the right */
 @media (max-width:767px){
   .peek-host{--peek-w:74px}
-  .svc-stack{--peek-vis:calc(74px * .949);margin-right:var(--peek-vis)}
-  .peek-host--svc .peek{top:14px}
   .peek-host--sos,.peek-host--fin{margin-right:calc(var(--peek-w) * .949)}
   .peek-host--sos .peek{top:18px}
   .peek-host--fin .peek{top:22px}
   .peek-host .peek{display:block}
   .emergency__cta{padding:18px 16px}
 }
-.peek-host--svc .peek{transition:transform .34s cubic-bezier(.2,.75,.25,1)}
-.peek-host--svc:hover .peek,.peek-host--svc:focus-within .peek{transform:translateY(-8px)}
-@media (prefers-reduced-motion:reduce){.peek-host--svc:hover .peek,.peek-host--svc:focus-within .peek{transform:none}}
 @media (max-width:767px){
   /* narrowed financing card: let its long button label wrap instead of overflowing */
   .peek-host--fin .fin-apply .btn{white-space:normal;text-align:center;line-height:1.3}
@@ -1445,3 +1435,107 @@ li{list-style:none}
 @media (max-width:960px){.scard-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:640px){.scard-grid{grid-template-columns:1fr;gap:18px}}
 @media (prefers-reduced-motion:reduce){.scard,.scard__link span{transition:none}.scard:hover,.scard:focus-within{transform:none}}
+
+/* ═══════════════════════════════════════════════════════════════
+   SITE EDITS · 2026-10-07 · service sub pages
+   Clear hero photos · service card buttons · sub page sections
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── heroes: no blur on the photo. A dark gradient sits behind the
+   text instead, kept at 0.66+ opacity wherever text can land so white
+   copy holds WCAG AA even over the brightest part of a photo. ───── */
+.hero__scrim{
+  background:
+    linear-gradient(180deg,rgba(12,19,26,.5) 0%,rgba(12,19,26,0) 26%,rgba(12,19,26,0) 46%,rgba(12,19,26,.74) 100%),
+    linear-gradient(90deg,rgba(12,19,26,.86) 0%,rgba(12,19,26,.7) 58%,rgba(12,19,26,.36) 100%);
+}
+.subhero--photo .subhero__scrim{
+  background:
+    linear-gradient(180deg,rgba(12,19,26,.46) 0%,rgba(12,19,26,0) 30%,rgba(12,19,26,0) 62%,rgba(12,19,26,.5) 100%),
+    linear-gradient(90deg,rgba(12,19,26,.88) 0%,rgba(12,19,26,.7) 60%,rgba(12,19,26,.34) 100%);
+}
+.hero__h1,.subhero--photo h1{text-shadow:0 2px 18px rgba(8,12,18,.55)}
+.subhero--photo .subhero__sub,.subhero--photo .crumb{text-shadow:0 1px 12px rgba(8,12,18,.6)}
+.subhero--photo .subhero__sub{color:rgba(255,255,255,.92)}
+.subhero--photo .crumb{color:rgba(255,255,255,.8)}
+.subhero--photo .crumb a{color:#fff}
+/* text runs the full width on narrow screens, so the overlay does too */
+@media (max-width:760px){
+  .hero__scrim,.subhero--photo .subhero__scrim{
+    background:linear-gradient(180deg,rgba(12,19,26,.74) 0%,rgba(12,19,26,.68) 50%,rgba(12,19,26,.8) 100%);
+  }
+}
+
+/* ── Unsplash credits: kept in the markup, white so they disappear ─ */
+.scard-credits,.scard-credits a{color:#fff}
+
+/* ── service cards: centered title, two buttons pinned to the bottom ─ */
+.scard__title{text-align:center}
+.scard__flag{align-self:center}
+.scard__call{
+  align-self:center;margin:0 0 14px;font-weight:700;font-size:.92rem;
+  color:var(--red);text-decoration:none;
+}
+.scard__call:hover{color:var(--red-deep)}
+.scard__actions{
+  margin-top:auto;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;
+}
+.scard__actions .btn{flex:1 1 0;min-width:0;max-width:170px}
+.scard__actions--one .btn{flex:0 1 auto;max-width:none;padding-inline:30px}
+.scard__actions .btn--outline{background:#fff}
+@media (max-width:640px){
+  .scard__actions{flex-direction:column;align-items:stretch}
+  .scard__actions .btn{max-width:none;flex:none;width:100%}
+}
+
+/* ── sub service cards: two short lists above the quote button ────── */
+.scard--sub .scard__rule{margin:16px 0 14px}
+.scard__label{
+  font-family:var(--display);font-weight:700;font-size:.7rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--copper-dk);margin:0 0 8px;
+}
+.scard__list{margin:0 0 18px;padding:0;list-style:none;display:grid;gap:6px}
+.scard__list li{
+  position:relative;padding-left:22px;font-size:.88rem;line-height:1.5;color:var(--ink);
+}
+.scard__list--inc li::before{
+  content:'';position:absolute;left:2px;top:.42em;width:10px;height:6px;
+  border-left:2px solid var(--copper);border-bottom:2px solid var(--copper);transform:rotate(-45deg);
+}
+.scard__list--sign li::before{
+  content:'';position:absolute;left:4px;top:.55em;width:6px;height:6px;border-radius:50%;
+  background:var(--red);
+}
+.scard--sub .scard__list--sign{margin-bottom:22px}
+
+/* ── sub page sections ─────────────────────────────────────────────── */
+.sec--tight{padding-block:80px}
+@media (max-width:720px){.sec--tight{padding-block:56px}}
+
+.sp-intro{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.sp-intro__col{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r-card);
+  padding:28px 28px 30px;box-shadow:var(--shadow-s);
+}
+.sp-intro__col .eyebrow{margin-bottom:14px}
+.sp-intro__col p{font-size:.97rem;line-height:1.68;color:var(--ink-mid)}
+.sp-list{margin:0;padding:0;list-style:none;display:grid;gap:9px}
+.sp-list li{position:relative;padding-left:22px;font-size:.97rem;line-height:1.55;color:var(--ink-mid)}
+.sp-list li::before{
+  content:'';position:absolute;left:4px;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--copper);
+}
+@media (max-width:960px){.sp-intro{grid-template-columns:1fr}}
+
+.sp-why{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:0;padding:0;list-style:none;
+}
+.sp-why__item{
+  display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid var(--line);
+  border-left:3px solid var(--copper);border-radius:14px;padding:20px 22px;
+}
+.sp-why__item strong{font-family:var(--display);font-weight:800;color:var(--navy);font-size:1rem}
+.sp-why__item span{font-size:.9rem;line-height:1.55;color:var(--ink-mid)}
+@media (max-width:960px){.sp-why{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.sp-why{grid-template-columns:1fr}}
+
+.chips--center{justify-content:center;max-width:860px;margin-inline:auto}
