@@ -1385,7 +1385,13 @@ li{list-style:none}
 }
 
 /* ── service card grid (residential + commercial) ───────────── */
-.scard-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:0;padding:0;list-style:none}
+.scard-grid{
+  --gap:24px;display:flex;flex-wrap:wrap;justify-content:center;gap:var(--gap);margin:0;padding:0;list-style:none;
+}
+.scard-grid>.scard{flex:0 0 calc((100% - 2 * var(--gap)) / 3);max-width:calc((100% - 2 * var(--gap)) / 3);min-width:0}
+/* four cards: a centered 2x2 block at the same card width */
+.scard-grid--four{max-width:calc((100% - 2 * var(--gap)) * 2 / 3 + var(--gap));margin-inline:auto}
+.scard-grid--four>.scard{flex-basis:calc((100% - var(--gap)) / 2);max-width:calc((100% - var(--gap)) / 2)}
 .scard{
   display:flex;flex-direction:column;background:#fff;
   border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden;
@@ -1432,8 +1438,14 @@ li{list-style:none}
 .scard-credits{margin-top:28px;text-align:center;font-size:.75rem;color:var(--ink-soft)}
 .scard-credits a{color:inherit}
 
-@media (max-width:960px){.scard-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:640px){.scard-grid{grid-template-columns:1fr;gap:18px}}
+@media (max-width:960px){
+  .scard-grid>.scard,.scard-grid--four>.scard{flex-basis:calc((100% - var(--gap)) / 2);max-width:calc((100% - var(--gap)) / 2)}
+  .scard-grid--four{max-width:none}
+}
+@media (max-width:640px){
+  .scard-grid{--gap:18px}
+  .scard-grid>.scard,.scard-grid--four>.scard{flex-basis:100%;max-width:100%}
+}
 @media (prefers-reduced-motion:reduce){.scard,.scard__link span{transition:none}.scard:hover,.scard:focus-within{transform:none}}
 
 /* ═══════════════════════════════════════════════════════════════
@@ -1539,3 +1551,34 @@ li{list-style:none}
 @media (max-width:640px){.sp-why{grid-template-columns:1fr}}
 
 .chips--center{justify-content:center;max-width:860px;margin-inline:auto}
+
+/* ── main service cards: one large More Info button ───────────────── */
+.scard__more{padding:15px 44px;font-size:1.02rem}
+
+/* ── info cards (industries, tankless benefits): image, title, text ─ */
+.scard--info .scard__desc{margin-top:10px;text-align:center}
+.scard__lead{margin:8px 0 0;text-align:center;font-weight:700;font-size:.95rem;color:var(--copper-dk)}
+.scard--info .scard__lead + .scard__desc{margin-top:8px}
+
+/* ── sub page "Why Mr. Plumber" over the Columbia skyline ─────────── */
+.sec--midlands .sp-why__item{
+  background:rgba(255,255,255,.96);
+}
+
+/* ── featured industry card: full grid width, image left, text right ─ */
+.scard--feature{flex-direction:row;margin-bottom:24px}
+.scard--feature .scard__img{
+  flex:0 0 46%;width:46%;height:auto;aspect-ratio:auto;min-height:300px;align-self:stretch;
+  border-radius:calc(var(--r-card) - 1px) 0 0 calc(var(--r-card) - 1px);
+}
+.scard--feature .scard__body{flex:1 1 0;min-width:0;justify-content:center;padding:34px 38px}
+.scard--feature .scard__title{text-align:left;font-size:1.45rem}
+.scard--feature .scard__desc{margin:12px 0 18px}
+.scard__list--cols{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:0}
+@media (max-width:760px){
+  .scard--feature{flex-direction:column;margin-bottom:18px}
+  .scard--feature .scard__img{flex:none;width:100%;min-height:0;aspect-ratio:16/9;border-radius:calc(var(--r-card) - 1px) calc(var(--r-card) - 1px) 0 0}
+  .scard--feature .scard__body{padding:22px 24px 24px}
+  .scard--feature .scard__title{text-align:center;font-size:1.2rem}
+}
+@media (max-width:420px){.scard__list--cols{grid-template-columns:1fr}}

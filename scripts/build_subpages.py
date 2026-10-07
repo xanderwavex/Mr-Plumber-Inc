@@ -18,8 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "subpages.json"
 SITE = "https://www.mrplumberinc.com"
-CSS_VER = "20261007e"
-JS_VER = "20261007e"
+CSS_VER = "20261007g"
+JS_VER = "20261007g"
 UTM = "utm_source=mr_plumber&amp;utm_medium=referral"
 
 PHONE_SVG = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 '
@@ -284,7 +284,7 @@ def grid(page, images):
       <p class="eyebrow"><span class="eyebrow__rule"></span>{noun} Services</p>
       <h2 class="h2">What We Handle</h2>
     </header>
-    <ul class="scard-grid">
+    <ul class="scard-grid{' scard-grid--four' if len(page['cards']) == 4 else ''}">
 {cards}
     </ul>
 {credits(page, images)}
@@ -315,7 +315,7 @@ def why(page):
         f'<li class="sp-why__item"><strong>{e(t)}</strong><span>{e(d)}</span></li>' for t, d in WHY[page["section"]]
     )
     return f"""
-<section class="sec sec--mist sec--tight">
+<section class="sec sec--midlands sec--tight">
   <div class="wrap">
     <header class="sec__head sec__head--center reveal">
       <p class="eyebrow"><span class="eyebrow__rule"></span>Why Mr. Plumber</p>
