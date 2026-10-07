@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20260923b">
+<link rel="stylesheet" href="styles.css?v=20261007d">
 
 <script type="application/ld+json">
 {
@@ -42,14 +42,14 @@
     "name": "Residential plumbing services",
     "itemListElement": [
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency plumbing" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gas line repair and service" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Well pump repair and installation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drain cleaning" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water heater repair, replacement and installation" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Leak detection" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole-house repiping" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drain cleaning" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sewer services" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gas line repair and service" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom repairs and remodels" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Whole-house repiping" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Well pump repair and installation" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water filtration and treatment" } }
     ]
   }
@@ -160,148 +160,110 @@
       <h2 class="h2">What We Do</h2>
     </header>
 
-    <ul class="ind-list">
-      <li class="ind reveal" style="--d:0.03s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2.5 20h19L12 3ZM12 10v4M12 17h.01"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Emergency Plumbing</span><span class="ind__line">Fast help when something breaks.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-emergency">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-emergency" hidden>
-          <p>Burst pipes, major leaks, failed water heaters and no-water situations get a fast response. <a href="tel:18036004357">Call 803-600-4357</a> and we'll get a tech moving.</p>
-          <ul class="ind__what"><li>Burst pipes</li><li>Major leaks</li><li>Failed water heaters</li><li>No water</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.06s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c1 4 5 5.5 5 10a5 5 0 0 1-10 0c0-2.5 1.5-4 2.5-5 0 2 1 3 2 3 0-3-1-5.5.5-8Z"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Gas Line Repair &amp; Service</span><span class="ind__line">Installs, leak repair and pressure testing.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-gas">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-gas" hidden>
-          <p>Installation, leak repair and pressure testing for natural gas and propane lines, all done to code.</p>
-          <ul class="ind__what"><li>New gas lines</li><li>Leak repair</li><li>Pressure testing</li><li>Natural gas &amp; propane</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.09s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h10v16H7zM7 8h10M10 21v-2M14 21v-2M12 12v3"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Water Heater Repair, Replacement &amp; Installation</span><span class="ind__line">Tank and tankless, all makes and models.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-wh">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-wh" hidden>
-          <p>Tank and tankless, all makes and models. Same-day replacement available, plus new installations for additions and remodels.</p>
-          <ul class="ind__what"><li>Repairs</li><li>Same-day replacement</li><li>New installations</li><li>Tank &amp; tankless</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.12s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21h16M6 21V11h12v10M9 11V7h6v4M12 3v4M10 15h4"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Well Pump Repair &amp; Installation</span><span class="ind__line">We repair and install well pumps.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-well">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-well" hidden>
-          <p>We repair existing well pumps and install new ones. We don't drill wells, but we'll repair or replace the pump that keeps your water flowing.</p>
-          <ul class="ind__what"><li>Well pump repair</li><li>Pump replacement</li><li>New pump installation</li><li>Low or no water pressure</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.15s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Leak Detection</span><span class="ind__line">Find hidden leaks before they do damage.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-leak">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-leak" hidden>
-          <p>Electronic and camera location of hidden slab, wall and supply-line leaks before they do real damage.</p>
-          <ul class="ind__what"><li>Slab leaks</li><li>In-wall leaks</li><li>Supply lines</li><li>Camera location</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.18s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h8v10h10M3 11h4v10M17 3v8h4"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Whole-House Repiping</span><span class="ind__line">End recurring leaks for good.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-repipe">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-repipe" hidden>
-          <p>Full copper or PEX replacement to end recurring leaks, rusty water and low pressure for good.</p>
-          <ul class="ind__what"><li>Copper</li><li>PEX</li><li>Rusty water</li><li>Low pressure</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.21s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18ZM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM12 12h.01"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Drain Cleaning</span><span class="ind__line">Clear clogs in kitchens, baths and main lines.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-drain">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-drain" hidden>
-          <p>Snaking for kitchen, bathroom and main-line clogs, with camera inspection available.</p>
-          <ul class="ind__what"><li>Kitchen drains</li><li>Bathroom drains</li><li>Main lines</li><li>Camera inspection</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.24s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 8h12v4h6M3 16h18M15 8V4"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Sewer Services</span><span class="ind__line">Inspection, repair and replacement.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-sewer">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-sewer" hidden>
-          <p>Camera inspection, spot repairs, trenchless options and full sewer-line replacement.</p>
-          <ul class="ind__what"><li>Camera inspection</li><li>Spot repairs</li><li>Trenchless options</li><li>Line replacement</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.27s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-3ZM6 12V5a2 2 0 0 1 4 0M7 20l-1 2M17 20l1 2"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Bathroom Repairs &amp; Remodels</span><span class="ind__line">From one fixture to a full renovation.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-bath">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-bath" hidden>
-          <p>From a single fixture swap to a full bathroom renovation, plumbed right and built to last.</p>
-          <ul class="ind__what"><li>Fixture swaps</li><li>Toilets &amp; showers</li><li>Full remodels</li></ul>
-        </div>
-      </li>
-      <li class="ind reveal" style="--d:0.30s">
-        <div class="ind__head">
-          <span class="ind__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16l-6 8v6l-4 2v-8L4 4Z"/></svg></span>
-          <span class="ind__text"><span class="ind__name">Water Filtration &amp; Treatment</span><span class="ind__line">Better water for the whole house.</span></span>
-          <button class="ind__more" type="button" aria-expanded="false" aria-controls="res-water">
-            <span>Read More</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-          </button>
-        </div>
-        <div class="ind__panel" id="res-water" hidden>
-          <p>Whole-house filtration, softeners and conditioning tuned to Midlands water.</p>
-          <ul class="ind__what"><li>Whole-house filtration</li><li>Softeners</li><li>Conditioning</li></ul>
-        </div>
-      </li>
+    <ul class="scard-grid">
+    <li class="scard scard--alert reveal" id="res-emergency" style="--d:0.03s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1669920282671-e2f03e99513f?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1669920282671-e2f03e99513f?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1669920282671-e2f03e99513f?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Water spraying from a hose connected to a metal pipe" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <span class="scard__flag">Fast response</span>
+        <h3 class="scard__title">Emergency Plumbing</h3>
+        <p class="scard__desc">Burst pipes, major leaks, failed water heaters and no-water situations get a fast response. Call and we'll get a tech moving.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Burst pipes</li><li>Major leaks</li><li>Failed water heaters</li><li>No water</li></ul>
+        <a class="scard__link" href="tel:18036004357">Call 803-600-4357 <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-drain" style="--d:0.06s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1749532125405-70950966b0e5?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1749532125405-70950966b0e5?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1749532125405-70950966b0e5?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Plumber repairing plumbing under a bathroom sink" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Drain Cleaning</h3>
+        <p class="scard__desc">Snaking for kitchen, bathroom and main-line clogs, with camera inspection available.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Kitchen drains</li><li>Bathroom drains</li><li>Main lines</li><li>Camera inspection</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Drain Cleaning options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-wh" style="--d:0.09s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1575299737366-39c143459bc5?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1575299737366-39c143459bc5?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1575299737366-39c143459bc5?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Wall-mounted water heater above a sink" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Water Heater Repair, Replacement &amp; Installation</h3>
+        <p class="scard__desc">Tank and tankless, all makes and models. Same-day replacement available, plus new installations for additions and remodels.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Repairs</li><li>Same-day replacement</li><li>New installations</li><li>Tank &amp; tankless</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Water Heater Repair, Replacement & Installation options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-leak" style="--d:0.03s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1676210134188-4c05dd172f89?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1676210134188-4c05dd172f89?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1676210134188-4c05dd172f89?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Technician working on a pipe inside an opened wall" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Leak Detection</h3>
+        <p class="scard__desc">Electronic and camera location of hidden slab, wall and supply-line leaks before they do real damage.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Slab leaks</li><li>In-wall leaks</li><li>Supply lines</li><li>Camera location</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Leak Detection options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-sewer" style="--d:0.06s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1693907986952-3cd372e4c9d8?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1693907986952-3cd372e4c9d8?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1693907986952-3cd372e4c9d8?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="New pipe laid on excavated soil" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Sewer Services</h3>
+        <p class="scard__desc">Camera inspection, spot repairs, trenchless options and full sewer-line replacement.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Camera inspection</li><li>Spot repairs</li><li>Trenchless options</li><li>Line replacement</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Sewer Services options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-gas" style="--d:0.09s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Black metal gas pipe and fittings" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Gas Line Repair &amp; Service</h3>
+        <p class="scard__desc">Installation, leak repair and pressure testing for natural gas and propane lines, all done to code.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>New gas lines</li><li>Leak repair</li><li>Pressure testing</li><li>Natural gas &amp; propane</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Gas Line Repair & Service options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-bath" style="--d:0.03s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1696987007764-7f8b85dd3033?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1696987007764-7f8b85dd3033?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1696987007764-7f8b85dd3033?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Remodeled bathroom with double vanity and shower" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Bathroom Repairs &amp; Remodels</h3>
+        <p class="scard__desc">From a single fixture swap to a full bathroom renovation, plumbed right and built to last.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Fixture swaps</li><li>Toilets &amp; showers</li><li>Full remodels</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Bathroom Repairs & Remodels options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-repipe" style="--d:0.06s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1769376695235-d3253548a5d7?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1769376695235-d3253548a5d7?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1769376695235-d3253548a5d7?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Copper pipe fittings" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Whole-House Repiping</h3>
+        <p class="scard__desc">Full copper or PEX replacement to end recurring leaks, rusty water and low pressure for good.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Copper</li><li>PEX</li><li>Rusty water</li><li>Low pressure</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Whole-House Repiping options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-well" style="--d:0.09s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1534641614095-6222aed9bdd6?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1534641614095-6222aed9bdd6?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1534641614095-6222aed9bdd6?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Well pump in a garden" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Well Pump Repair &amp; Installation</h3>
+        <p class="scard__desc">We repair existing well pumps and install new ones. We don't drill wells, but we'll repair or replace the pump that keeps your water flowing.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Well pump repair</li><li>Pump replacement</li><li>New pump installation</li><li>Low or no water pressure</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Well Pump Repair & Installation options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
+    <li class="scard reveal" id="res-water" style="--d:0.03s">
+      <img class="scard__img" src="https://images.unsplash.com/photo-1654220691341-be23a137bd0c?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70" srcset="https://images.unsplash.com/photo-1654220691341-be23a137bd0c?auto=format&amp;fit=crop&amp;w=480&amp;h=270&amp;q=70 480w, https://images.unsplash.com/photo-1654220691341-be23a137bd0c?auto=format&amp;fit=crop&amp;w=800&amp;h=450&amp;q=70 800w" sizes="(max-width:640px) 100vw, (max-width:960px) 50vw, 380px" alt="Water treatment tanks" width="800" height="450" loading="lazy" decoding="async">
+      <div class="scard__body">
+        <h3 class="scard__title">Water Filtration &amp; Treatment</h3>
+        <p class="scard__desc">Whole-house filtration, softeners and conditioning tuned to Midlands water.</p>
+        <hr class="scard__rule">
+        <ul class="scard__tags"><li>Whole-house filtration</li><li>Softeners</li><li>Conditioning</li></ul>
+        <a class="scard__link" href="index.html#contact" aria-label="See all Water Filtration & Treatment options: request a quote">See all <span aria-hidden="true">→</span></a>
+      </div>
+    </li>
     </ul>
+    <p class="scard-credits">Photos: <a href="https://unsplash.com/@iantalmacs?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Ian Talmacs</a>, <a href="https://unsplash.com/@bhagya_laxmi?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">bhagya laxmi</a>, <a href="https://unsplash.com/@mikbutcher?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Michal Balog</a>, <a href="https://unsplash.com/@shaker_jpg?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Timur Shakerzianov</a>, <a href="https://unsplash.com/@rgreen?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Rose Galloway Green</a>, <a href="https://unsplash.com/@sigmund?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Compagnons</a>, <a href="https://unsplash.com/@claybanks?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Clay Banks</a>, <a href="https://unsplash.com/@zachmmalin?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Zach M</a>, <a href="https://unsplash.com/@fikrirasyid?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Fikri Rasyid</a>, <a href="https://unsplash.com/@alexeydemidov?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Alexey Demidov</a> on <a href="https://unsplash.com/?utm_source=mr_plumber&amp;utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
   </div>
 </section>
 
