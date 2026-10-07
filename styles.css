@@ -1554,6 +1554,9 @@ li{list-style:none}
 
 /* ── main service cards: one large More Info button ───────────────── */
 .scard__more{padding:15px 44px;font-size:1.02rem}
+.scard__actions--two{display:grid;grid-template-columns:repeat(auto-fit,minmax(152px,1fr));gap:8px}
+.scard__actions--two .btn{flex:none;width:100%;min-width:0;max-width:none;padding:15px 10px;font-size:.92rem;white-space:nowrap;justify-content:center;text-align:center}
+.sec__cta{display:flex;justify-content:center;margin-top:48px}
 
 /* ── info cards (industries, tankless benefits): image, title, text ─ */
 .scard--info .scard__desc{margin-top:10px;text-align:center}

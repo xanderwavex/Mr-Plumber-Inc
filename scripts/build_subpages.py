@@ -18,8 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "subpages.json"
 SITE = "https://www.mrplumberinc.com"
-CSS_VER = "20261007g"
-JS_VER = "20261007g"
+CSS_VER = "20261007j"
+JS_VER = "20261007j"
 UTM = "utm_source=mr_plumber&amp;utm_medium=referral"
 
 PHONE_SVG = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 '
@@ -243,6 +243,14 @@ def intro(page):
 """
 
 
+def card_button(page, c):
+    if page["section"] == "commercial":
+        return (f'<a class="btn btn--brick btn--sm" href="commercial.html#account" '
+                f'aria-label="Set up an account for {e(c['title'])}">Set Up an Account</a>')
+    return (f'<a class="btn btn--brick btn--sm" href="{quote_href(page, c['title'])}" '
+            f'aria-label="Get a quote for {e(c['title'])}">Get a Quote</a>')
+
+
 def card(page, c, i, images):
     pid = c["img"]
     alt = images[pid]["alt"]
@@ -259,7 +267,7 @@ def card(page, c, i, images):
         <p class="scard__label">Common signs you need this</p>
         <ul class="scard__list scard__list--sign">{sig}</ul>
         <div class="scard__actions scard__actions--one">
-          <a class="btn btn--brick btn--sm" href="{quote_href(page, c['title'])}" aria-label="Get a quote for {e(c['title'])}">Get a Quote</a>
+          {card_button(page, c)}
         </div>
       </div>
     </li>"""

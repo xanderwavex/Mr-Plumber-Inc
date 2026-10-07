@@ -112,20 +112,10 @@
       "user": "romanenko29061983",
       "alt": "Excavator beside large sections of pipe"
     },
-    "photo-1608454770647-01dc0f7dd97d": {
-      "name": "Myko Makh",
-      "user": "mykomoto",
-      "alt": "Gas cooktop with black burner grates"
-    },
     "photo-1601914697928-0b536e76d048": {
       "name": "iMattSmart",
       "user": "imattsmart",
       "alt": "Residential gas meter and supply piping"
-    },
-    "photo-1622119836803-c52ae67fbbeb": {
-      "name": "Gwenn Klabbers",
-      "user": "reisgekkie",
-      "alt": "Red valve handle on a metal pipe"
     },
     "photo-1510467181625-c419e443bdfa": {
       "name": "CHUTTERSNAP",
@@ -146,11 +136,6 @@
       "name": "Sasikan Ulevik",
       "user": "ulevik",
       "alt": "Stainless steel faucet over a sink"
-    },
-    "photo-1714894691666-e8bb020c781c": {
-      "name": "Asep Rendi",
-      "user": "aseprendi12",
-      "alt": "Modern bathroom with a toilet beside a walk-in shower"
     },
     "photo-1615238168577-0970b17e4a5f": {
       "name": "Compagnons",
@@ -232,25 +217,10 @@
       "user": "jafsyah14",
       "alt": "Close-up of pipes and valves in a plant room"
     },
-    "photo-1530124566582-a618bc2615dc": {
-      "name": "Quilia",
-      "user": "heyquilia",
-      "alt": "Close-up of a set of wrenches"
-    },
-    "photo-1741394556992-b2a082d157d5": {
-      "name": "tommao wang",
-      "user": "tommaomaoer",
-      "alt": "Worker cleaning pavement with a high-pressure hose"
-    },
     "photo-1763100351670-756f71d57c9f": {
       "name": "Yimeng Zhao",
       "user": "kikiz",
       "alt": "Close-up of a stainless steel sink drain"
-    },
-    "photo-1546715999-10641191307a": {
-      "name": "7500 RPM",
-      "user": "7500rpm",
-      "alt": "View down the inside of a tunnel"
     },
     "photo-1618840626133-54463084a141": {
       "name": "Peter Herrmann",
@@ -281,11 +251,6 @@
       "name": "Alicia Christin Gerald",
       "user": "allysphotos",
       "alt": "Close-up of a running faucet"
-    },
-    "photo-1747999703278-ef065c39cb18": {
-      "name": "TECNIC Bioprocess Solutions",
-      "user": "tecnic",
-      "alt": "Worker preparing a metal pipe with a hand grinder"
     },
     "photo-1789303390930-06b04ffdba51": {
       "name": "Peter Herrmann",
@@ -336,11 +301,6 @@
       "name": "Doris Morgan",
       "user": "d_morgan",
       "alt": "Row of utility meters and piping outside a restaurant"
-    },
-    "photo-1529269421632-e9253d14d3a9": {
-      "name": "Pawel Czerwinski",
-      "user": "pawel_czerwinski",
-      "alt": "Red and white pipes running along a wall"
     },
     "photo-1637345158353-40607a208d46": {
       "name": "Peter Herrmann",
@@ -486,6 +446,46 @@
       "name": "Craftsman Concrete Floors",
       "user": "craftsmanconcrete_official",
       "alt": "Workers inspecting a large, empty commercial facility"
+    },
+    "photo-1584622650111-993a426fbf0a": {
+      "name": "Lotus Design N Print",
+      "user": "lotusdnp",
+      "alt": "Modern bathroom with a walk-in shower and a clean vanity"
+    },
+    "photo-1744302570296-d4bcb55b7002": {
+      "name": "Miguel Ángel Padriñán Alba",
+      "user": "padrinan",
+      "alt": "Close-up of pressure gauges and valves on a pipe run"
+    },
+    "photo-1711571603483-126bf178de8b": {
+      "name": "Guille B",
+      "user": "guilleb",
+      "alt": "Gas regulator and pipes connected to a wall"
+    },
+    "photo-1783753445278-45ddfdf6eb8f": {
+      "name": "Vadym Alyekseyenko",
+      "user": "vadym_alyekseyenko",
+      "alt": "Road construction with concrete manhole risers and new asphalt"
+    },
+    "photo-1671656200343-d2a322492223": {
+      "name": "benjamin lehman",
+      "user": "abject",
+      "alt": "Stainless steel prep kitchen with two sinks on the wall"
+    },
+    "photo-1769012334754-163a8eb781e9": {
+      "name": "Eric Prouzet",
+      "user": "eprouzet",
+      "alt": "Pile of old, rusty, broken pipes"
+    },
+    "photo-1652303518314-e1196ef221f6": {
+      "name": "John Kakuk",
+      "user": "lensatic",
+      "alt": "Excavator digging a trench with a worker in a trench box"
+    },
+    "photo-1570466371266-438db08a9bdd": {
+      "name": "Herry Sutanto",
+      "user": "sutanto",
+      "alt": "Blue valve handle on a water pipe"
     }
   },
   "pages": [
@@ -987,7 +987,7 @@
       "cards": [
         {
           "title": "New Gas Lines & Appliance Hookups",
-          "img": "photo-1608454770647-01dc0f7dd97d",
+          "img": "photo-1711571603483-126bf178de8b",
           "desc": "Adding a gas range, dryer, water heater or fireplace means running a new line from the existing supply. We size and route it properly and connect the appliance safely.",
           "included": [
             "Planning the line route and size",
@@ -1018,7 +1018,7 @@
         },
         {
           "title": "Pressure Testing",
-          "img": "photo-1622119836803-c52ae67fbbeb",
+          "img": "photo-1744302570296-d4bcb55b7002",
           "desc": "A pressure test confirms a gas system holds tight with no leaks. It's often required after new work, during remodels, or before service is turned on.",
           "included": [
             "Isolating the system",
@@ -1122,7 +1122,7 @@
         },
         {
           "title": "Full Bathroom Remodels",
-          "img": "photo-1714894691666-e8bb020c781c",
+          "img": "photo-1584622650111-993a426fbf0a",
           "desc": "A remodel is the time to move fixtures, update old pipe and plan for the layout you want. We handle the plumbing from rough-in through the final fixture set.",
           "included": [
             "Layout planning for plumbing",
@@ -1487,7 +1487,7 @@
         },
         {
           "title": "Shutoff & Leak Control",
-          "img": "photo-1530124566582-a618bc2615dc",
+          "img": "photo-1570466371266-438db08a9bdd",
           "desc": "The first step in any emergency is stopping the water. We isolate the problem so the rest of the building can keep running while we repair it.",
           "included": [
             "Locating and operating shutoff valves",
@@ -1527,7 +1527,7 @@
       "cards": [
         {
           "title": "Restaurant & Grease Line Jetting",
-          "img": "photo-1741394556992-b2a082d157d5",
+          "img": "photo-1671656200343-d2a322492223",
           "desc": "Grease hardens on pipe walls until the line chokes off. High-pressure jetting scours the pipe clean and helps keep a busy kitchen open.",
           "included": [
             "High-pressure jetting of kitchen lines",
@@ -1559,7 +1559,7 @@
         },
         {
           "title": "Main Sewer Lines",
-          "img": "photo-1546715999-10641191307a",
+          "img": "photo-1783753445278-45ddfdf6eb8f",
           "desc": "When the building's main line backs up, every fixture is affected. We clear the main from the cleanout and get the whole building draining again.",
           "included": [
             "Locating and opening cleanouts",
@@ -1718,7 +1718,7 @@
         },
         {
           "title": "Water Service Line Repair",
-          "img": "photo-1747999703278-ef065c39cb18",
+          "img": "photo-1652303518314-e1196ef221f6",
           "desc": "The service line brings water from the street into your building. We repair breaks and replace failing sections to restore steady supply.",
           "included": [
             "Locating the break",
@@ -1961,7 +1961,7 @@
       "cards": [
         {
           "title": "Aging Supply Line Replacement",
-          "img": "photo-1529269421632-e9253d14d3a9",
+          "img": "photo-1769012334754-163a8eb781e9",
           "desc": "Older supply lines corrode and leak more often as they age. Replacing them ends the cycle of repeat repairs and restores good pressure.",
           "included": [
             "Assessment of existing supply lines",
