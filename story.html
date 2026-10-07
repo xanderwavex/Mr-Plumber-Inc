@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20261007j">
+<link rel="stylesheet" href="styles.css?v=20261007k">
 
 <script type="application/ld+json">
 {
@@ -50,8 +50,91 @@
     </a>
     <nav class="nav__links" aria-label="Primary">
       <a href="index.html">Home</a>
-      <a href="services.html">Residential</a>
-      <a href="commercial.html">Commercial</a>
+      <div class="nav__item" data-menu>
+        <a class="nav__link" href="services.html">Residential</a>
+        <button class="nav__caret" type="button" aria-expanded="false" aria-controls="mega-residential" aria-label="Residential services menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="mega" id="mega-residential">
+          <div class="mega__cols">
+          <div class="mega__col">
+            <p class="mega__h">Pipes &amp; Leaks</p>
+            <ul>
+              <li><a href="residential-emergency-plumbing.html">Emergency Plumbing</a></li>
+              <li><a href="residential-leak-detection.html">Leak Detection</a></li>
+              <li><a href="residential-repiping.html">Whole-House Repipes</a></li>
+              <li><a href="residential-bathrooms.html">Bathroom Repairs &amp; Remodels</a></li>
+            </ul>
+          </div>
+          <div class="mega__col">
+            <p class="mega__h">Drains &amp; Sewer</p>
+            <ul>
+              <li><a href="residential-drain-cleaning.html">Drain Cleaning &amp; Jetting</a></li>
+              <li><a href="residential-sewer-services.html">Sewer Services</a></li>
+            </ul>
+          </div>
+          <div class="mega__col">
+            <p class="mega__h">Water &amp; Gas</p>
+            <ul>
+              <li><a href="residential-water-heaters.html">Water Heater Repair &amp; Replacement</a></li>
+              <li><a href="tankless.html">Tankless Water Heaters</a></li>
+              <li><a href="residential-gas-lines.html">Gas Line Repair &amp; Service</a></li>
+              <li><a href="residential-well-pumps.html">Well Pump Repair &amp; Installation</a></li>
+              <li><a href="residential-water-filtration.html">Water Filtration &amp; Treatment</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="mega__feature">
+          <p class="mega__feature__h">Need a Plumber?</p>
+          <p class="mega__feature__t">Licensed, bonded, and insured. 24/7 emergency service.</p>
+          <a class="btn btn--brick btn--sm" href="index.html#contact">Get a Quote</a>
+          <a class="mega__feature__tel" href="tel:18036004357">803-600-4357</a>
+        </div>
+          <div class="mega__foot">
+            <a class="mega__all" href="services.html">See all residential services →</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav__item" data-menu>
+        <a class="nav__link" href="commercial.html">Commercial</a>
+        <button class="nav__caret" type="button" aria-expanded="false" aria-controls="mega-commercial" aria-label="Commercial services menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="mega" id="mega-commercial">
+          <div class="mega__cols">
+          <div class="mega__col">
+            <p class="mega__h">Pipes &amp; Leaks</p>
+            <ul>
+              <li><a href="commercial-emergency-backflow.html">Emergency &amp; Backflow</a></li>
+              <li><a href="commercial-leak-detection.html">Leak Detection &amp; Water Line Repair</a></li>
+              <li><a href="commercial-repiping.html">Commercial Repiping</a></li>
+              <li><a href="commercial-restroom-kitchen.html">Restroom &amp; Kitchen</a></li>
+            </ul>
+          </div>
+          <div class="mega__col">
+            <p class="mega__h">Drains &amp; Sewer</p>
+            <ul>
+              <li><a href="commercial-drain-cleaning.html">Drain Cleaning &amp; Jetting</a></li>
+              <li><a href="commercial-sewer-services.html">Sewer Line Services</a></li>
+            </ul>
+          </div>
+          <div class="mega__col">
+            <p class="mega__h">Water, Gas &amp; Upkeep</p>
+            <ul>
+              <li><a href="commercial-water-heaters.html">Commercial Water Heaters</a></li>
+              <li><a href="commercial-gas-lines.html">Gas Line Services &amp; Testing</a></li>
+              <li><a href="commercial-water-treatment.html">Water Treatment &amp; Filtration</a></li>
+              <li><a href="commercial-maintenance-contracts.html">Monthly Maintenance Contracts</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="mega__feature">
+          <p class="mega__feature__h">Commercial Accounts</p>
+          <p class="mega__feature__t">Maintenance plans and priority service for businesses and property managers.</p>
+          <a class="btn btn--brick btn--sm" href="commercial.html#account">Set Up an Account</a>
+          <a class="mega__feature__tel" href="tel:18036004357">803-600-4357</a>
+        </div>
+          <div class="mega__foot">
+            <a class="mega__all" href="commercial.html">See all commercial services →</a><a class="mega__more" href="commercial.html#industries">Industries We Serve →</a>
+          </div>
+        </div>
+      </div>
       <a href="tankless.html">Tankless</a>
       <a href="financing.html">Financing</a>
       <a href="story.html" aria-current="page">Our Story</a>
@@ -76,8 +159,64 @@
 <div class="drawer" id="drawer" hidden>
   <nav aria-label="Mobile">
     <a href="index.html">Home</a>
-    <a href="services.html">Residential Services</a>
-    <a href="commercial.html">Commercial Services</a>
+    <div class="acc">
+      <div class="acc__row">
+        <a href="services.html">Residential Services</a>
+        <button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-residential" aria-label="Show residential services"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <div class="acc__panel" id="acc-residential" hidden>
+        <p class="acc__h">Pipes &amp; Leaks</p>
+        <a href="residential-emergency-plumbing.html">Emergency Plumbing</a>
+        <a href="residential-leak-detection.html">Leak Detection</a>
+        <a href="residential-repiping.html">Whole-House Repipes</a>
+        <a href="residential-bathrooms.html">Bathroom Repairs &amp; Remodels</a>
+        <p class="acc__h">Drains &amp; Sewer</p>
+        <a href="residential-drain-cleaning.html">Drain Cleaning &amp; Jetting</a>
+        <a href="residential-sewer-services.html">Sewer Services</a>
+        <p class="acc__h">Water &amp; Gas</p>
+        <a href="residential-water-heaters.html">Water Heater Repair &amp; Replacement</a>
+        <a href="tankless.html">Tankless Water Heaters</a>
+        <a href="residential-gas-lines.html">Gas Line Repair &amp; Service</a>
+        <a href="residential-well-pumps.html">Well Pump Repair &amp; Installation</a>
+        <a href="residential-water-filtration.html">Water Filtration &amp; Treatment</a>
+        <a class="acc__all" href="services.html">See all residential services →</a>
+        <div class="acc__feature">
+          <p class="acc__feature__h">Need a Plumber?</p>
+          <p class="acc__feature__t">Licensed, bonded, and insured. 24/7 emergency service.</p>
+          <a class="btn btn--brick btn--sm" href="index.html#contact">Get a Quote</a>
+          <a class="acc__feature__tel" href="tel:18036004357">803-600-4357</a>
+        </div>
+      </div>
+    </div>
+    <div class="acc">
+      <div class="acc__row">
+        <a href="commercial.html">Commercial Services</a>
+        <button class="acc__btn" type="button" aria-expanded="false" aria-controls="acc-commercial" aria-label="Show commercial services"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <div class="acc__panel" id="acc-commercial" hidden>
+        <p class="acc__h">Pipes &amp; Leaks</p>
+        <a href="commercial-emergency-backflow.html">Emergency &amp; Backflow</a>
+        <a href="commercial-leak-detection.html">Leak Detection &amp; Water Line Repair</a>
+        <a href="commercial-repiping.html">Commercial Repiping</a>
+        <a href="commercial-restroom-kitchen.html">Restroom &amp; Kitchen</a>
+        <p class="acc__h">Drains &amp; Sewer</p>
+        <a href="commercial-drain-cleaning.html">Drain Cleaning &amp; Jetting</a>
+        <a href="commercial-sewer-services.html">Sewer Line Services</a>
+        <p class="acc__h">Water, Gas &amp; Upkeep</p>
+        <a href="commercial-water-heaters.html">Commercial Water Heaters</a>
+        <a href="commercial-gas-lines.html">Gas Line Services &amp; Testing</a>
+        <a href="commercial-water-treatment.html">Water Treatment &amp; Filtration</a>
+        <a href="commercial-maintenance-contracts.html">Monthly Maintenance Contracts</a>
+        <a class="acc__more" href="commercial.html#industries">Industries We Serve</a>
+        <a class="acc__all" href="commercial.html">See all commercial services →</a>
+        <div class="acc__feature">
+          <p class="acc__feature__h">Commercial Accounts</p>
+          <p class="acc__feature__t">Maintenance plans and priority service for businesses and property managers.</p>
+          <a class="btn btn--brick btn--sm" href="commercial.html#account">Set Up an Account</a>
+          <a class="acc__feature__tel" href="tel:18036004357">803-600-4357</a>
+        </div>
+      </div>
+    </div>
     <a href="tankless.html">Tankless Water Heaters</a>
     <a href="financing.html">Financing</a>
     <a href="story.html">Our Story</a>
@@ -278,6 +417,6 @@
   <span>Call Now</span>
 </a>
 
-<script src="main.js?v=20261007j"></script>
+<script src="main.js?v=20261007k"></script>
 </body>
 </html>

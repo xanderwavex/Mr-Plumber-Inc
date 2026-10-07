@@ -15,11 +15,14 @@ from html import escape
 from urllib.parse import quote_plus
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import nav_menu  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "subpages.json"
 SITE = "https://www.mrplumberinc.com"
-CSS_VER = "20261007j"
-JS_VER = "20261007j"
+CSS_VER = "20261007k"
+JS_VER = "20261007k"
 UTM = "utm_source=mr_plumber&amp;utm_medium=referral"
 
 PHONE_SVG = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 '
@@ -129,18 +132,8 @@ def head(page):
 
 
 def nav(section):
-    def link(href, label, key=None):
-        current = ' aria-current="page"' if key == section else ""
-        return f'      <a href="{href}"{current}>{label}</a>'
-    links = "\n".join([
-        link("index.html", "Home"),
-        link("services.html", "Residential", "residential"),
-        link("commercial.html", "Commercial", "commercial"),
-        link("tankless.html", "Tankless"),
-        link("financing.html", "Financing"),
-        link("story.html", "Our Story"),
-        link("index.html#contact", "Contact"),
-    ])
+    links = nav_menu.desktop_links(active=section)
+    drawer = nav_menu.drawer_links(active=section)
     return f"""<body class="page-fade">
 <a class="skip" href="#main">Skip to content</a>
 
@@ -170,14 +163,7 @@ def nav(section):
 
 <div class="drawer" id="drawer" hidden>
   <nav aria-label="Mobile">
-    <a href="index.html">Home</a>
-    <a href="services.html">Residential Services</a>
-    <a href="commercial.html">Commercial Services</a>
-    <a href="tankless.html">Tankless Water Heaters</a>
-    <a href="financing.html">Financing</a>
-    <a href="story.html">Our Story</a>
-    <a href="index.html#contact">Contact</a>
-    <a href="https://gotanklesssc.com/" target="_blank" rel="noopener">Go Tankless SC</a>
+{drawer}
   </nav>
   <a class="btn btn--brick btn--block drawer__call" href="tel:18036004357">
     <span class="navphone__tag">Emergency?</span>

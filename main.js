@@ -56,6 +56,81 @@ const FORM_ENDPOINT = '';
     });
   }
 
+  /* ── mega menus (desktop) ─────────────────────────────────────
+     Hover opens, the arrow button toggles for keyboard and touch.
+     Only one open at a time; closes on outside click, Escape, link. */
+  const menus = Array.from(document.querySelectorAll('.nav__item[data-menu]'));
+  if (menus.length) {
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)');
+    let closeTimer = null;
+    const caretOf = (item) => item.querySelector('.nav__caret');
+    const setMenu = (item, open, how) => {
+      item.classList.toggle('is-open', open);
+      item.dataset.by = open ? how || 'hover' : '';
+      caretOf(item).setAttribute('aria-expanded', String(open));
+    };
+    const closeAll = (except) => menus.forEach((m) => { if (m !== except) setMenu(m, false); });
+    const cancelClose = () => { clearTimeout(closeTimer); closeTimer = null; };
+
+    menus.forEach((item) => {
+      const caret = caretOf(item);
+      item.addEventListener('mouseenter', () => {
+        if (!canHover.matches) return;
+        cancelClose();
+        closeAll(item);
+        if (!item.classList.contains('is-open')) setMenu(item, true, 'hover');
+      });
+      item.addEventListener('mouseleave', () => {
+        if (!canHover.matches || item.dataset.by === 'click') return;
+        cancelClose();
+        closeTimer = setTimeout(() => setMenu(item, false), 150);
+      });
+      caret.addEventListener('click', () => {
+        const open = item.classList.contains('is-open');
+        // a click on an arrow the hover just opened pins it rather than closing it
+        if (open && item.dataset.by === 'hover') { item.dataset.by = 'click'; return; }
+        cancelClose();
+        closeAll(item);
+        setMenu(item, !open, 'click');
+      });
+      item.addEventListener('focusout', (e) => {
+        if (!item.contains(e.relatedTarget) && !item.matches(':hover')) setMenu(item, false);
+      });
+      item.addEventListener('click', (e) => {
+        if (e.target.closest('a')) setMenu(item, false);
+      });
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      menus.forEach((item) => {
+        if (!item.classList.contains('is-open')) return;
+        const inside = item.contains(document.activeElement);
+        setMenu(item, false);
+        if (inside) caretOf(item).focus();
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav__item[data-menu]')) closeAll();
+    });
+    window.addEventListener('resize', () => closeAll());
+  }
+
+  /* ── mobile drawer accordions: label is a link, arrow expands ── */
+  const accBtns = Array.from(document.querySelectorAll('.acc__btn'));
+  accBtns.forEach((btn) => {
+    const panel = document.getElementById(btn.getAttribute('aria-controls'));
+    if (!panel) return;
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      accBtns.forEach((b) => {
+        const p = document.getElementById(b.getAttribute('aria-controls'));
+        const isThis = b === btn;
+        b.setAttribute('aria-expanded', String(isThis && !open));
+        if (p) p.hidden = !(isThis && !open);
+      });
+    });
+  });
+
   /* ── scroll reveals ───────────────────────────────────────── */
   const reveals = document.querySelectorAll('.reveal');
   if (reveals.length) {
